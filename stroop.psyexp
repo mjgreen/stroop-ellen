@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2020.1.1">
+<PsychoPy2experiment encoding="utf-8" version="3.2.4">
   <Settings>
     <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
     <Param name="Audio lib" updates="None" val="pyo" valType="str"/>
@@ -8,7 +8,7 @@
     <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
     <Param name="Experiment info" updates="None" val="{'session': '01', 'participant': ''}" valType="code"/>
     <Param name="Force stereo" updates="None" val="True" valType="bool"/>
-    <Param name="Full-screen window" updates="None" val="False" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
     <Param name="HTML path" updates="None" val="html" valType="str"/>
     <Param name="Incomplete URL" updates="None" val="" valType="str"/>
     <Param name="JS libs" updates="None" val="packaged" valType="str"/>
@@ -23,10 +23,10 @@
     <Param name="Show mouse" updates="None" val="False" valType="bool"/>
     <Param name="Units" updates="None" val="norm" valType="str"/>
     <Param name="Use version" updates="None" val="" valType="str"/>
-    <Param name="Window size (pixels)" updates="None" val="[800, 600]" valType="code"/>
+    <Param name="Window size (pixels)" updates="None" val="[1024, 768]" valType="code"/>
     <Param name="blendMode" updates="None" val="avg" valType="str"/>
     <Param name="color" updates="None" val="black" valType="str"/>
-    <Param name="colorSpace" updates="None" val="dkl" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
     <Param name="expName" updates="None" val="stroop" valType="str"/>
     <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
     <Param name="logging level" updates="None" val="warning" valType="code"/>
@@ -100,7 +100,7 @@
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
       <ParallelOutComponent name="p_port">
-        <Param name="address" updates="None" val="0x0378" valType="str"/>
+        <Param name="address" updates="None" val="0x1000" valType="str"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="name" updates="None" val="p_port" valType="code"/>
@@ -235,8 +235,8 @@
     <Routine name="instruct"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('FovWord', 'RED'), ('FovCol', 'RED'), ('ParaWord', 'ROOM'), ('ParaCol', 'white'), ('ParaPos', [-0.4, 0]), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 1)]), OrderedDict([('FovWord', 'GREEN'), ('FovCol', 'GREEN'), ('ParaWord', 'SHORT'), ('ParaCol', 'white'), ('ParaPos', [-0.4, 0]), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 1)]), OrderedDict([('FovWord', 'BLUE'), ('FovCol', 'BLUE'), ('ParaWord', 'PUB'), ('ParaCol', 'white'), ('ParaPos', [-0.4, 0]), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 1)]), OrderedDict([('FovWord', 'YELLOW'), ('FovCol', 'YELLOW'), ('ParaWord', 'WEEKLY'), ('ParaCol', 'white'), ('ParaPos', [-0.4, 0]), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 1)]), OrderedDict([('FovWord', 'RED'), ('FovCol', 'RED'), ('ParaWord', 'ROOM'), ('ParaCol', 'white'), ('ParaPos', [0.4, 0]), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 2)]), OrderedDict([('FovWord', 'GREEN'), ('FovCol', 'GREEN'), ('ParaWord', 'SHORT'), ('ParaCol', 'white'), ('ParaPos', [0.4, 0]), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 2)]), OrderedDict([('FovWord', 'BLUE'), ('FovCol', 'BLUE'), ('ParaWord', 'PUB'), ('ParaCol', 'white'), ('ParaPos', [0.4, 0]), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 2)]), OrderedDict([('FovWord', 'YELLOW'), ('FovCol', 'YELLOW'), ('ParaWord', 'WEEKLY'), ('ParaCol', 'white'), ('ParaPos', [0.4, 0]), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 2)]), OrderedDict([('FovWord', 'RED'), ('FovCol', 'GREEN'), ('ParaWord', 'ROOM'), ('ParaCol', 'white'), ('ParaPos', [-0.4, 0]), ('Compatibility', 'ic'), ('Condition', 'foveal_unified'), ('Trigger', 3)]), OrderedDict([('FovWord', 'GREEN'), ('FovCol', 'BLUE'), ('ParaWord', 'SHORT'), ('ParaCol', 'white'), ('ParaPos', [-0.4, 0]), ('Compatibility', 'ic'), ('Condition', 'foveal_unified'), ('Trigger', 3)])]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="trialTypes10trials.csv" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('FovWord', 'RED'), ('FovCol', 'ROOM'), ('ParaWord', 'white'), ('ParaCol', '[-0.7'), ('ParaPos', ' 0]'), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 1)]), OrderedDict([('FovWord', 'GREEN'), ('FovCol', 'SHORT'), ('ParaWord', 'white'), ('ParaCol', '[-0.7'), ('ParaPos', ' 0]'), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 1)]), OrderedDict([('FovWord', 'BLUE'), ('FovCol', 'PUB'), ('ParaWord', 'white'), ('ParaCol', '[-0.7'), ('ParaPos', ' 0]'), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 1)]), OrderedDict([('FovWord', 'YELLOW'), ('FovCol', 'WEEKLY'), ('ParaWord', 'white'), ('ParaCol', '[-0.7'), ('ParaPos', ' 0]'), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 1)]), OrderedDict([('FovWord', 'RED'), ('FovCol', 'ROOM'), ('ParaWord', 'white'), ('ParaCol', '[0.7'), ('ParaPos', ' 0]'), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 2)]), OrderedDict([('FovWord', 'GREEN'), ('FovCol', 'SHORT'), ('ParaWord', 'white'), ('ParaCol', '[0.7'), ('ParaPos', ' 0]'), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 2)]), OrderedDict([('FovWord', 'BLUE'), ('FovCol', 'PUB'), ('ParaWord', 'white'), ('ParaCol', '[0.7'), ('ParaPos', ' 0]'), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 2)]), OrderedDict([('FovWord', 'YELLOW'), ('FovCol', 'WEEKLY'), ('ParaWord', 'white'), ('ParaCol', '[0.7'), ('ParaPos', ' 0]'), ('Compatibility', 'c'), ('Condition', 'foveal_unified'), ('Trigger', 2)]), OrderedDict([('FovWord', 'GREEN'), ('FovCol', 'ROOM'), ('ParaWord', 'white'), ('ParaCol', '[-0.7'), ('ParaPos', ' 0]'), ('Compatibility', 'ic'), ('Condition', 'foveal_unified'), ('Trigger', 3)]), OrderedDict([('FovWord', 'BLUE'), ('FovCol', 'SHORT'), ('ParaWord', 'white'), ('ParaCol', '[-0.7'), ('ParaPos', ' 0]'), ('Compatibility', 'ic'), ('Condition', 'foveal_unified'), ('Trigger', 3)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="stimuli-definitions\trialTypes10trials.csv" valType="str"/>
       <Param name="endPoints" updates="None" val="[1, 2]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>

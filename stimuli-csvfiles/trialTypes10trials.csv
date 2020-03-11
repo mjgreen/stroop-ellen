@@ -1,0 +1,11 @@
+FovWord,FovCol,ParaWord,ParaCol,ParaPos,Compatibility,Condition,Trigger
+RED,RED,ROOM,white,"[-0.7, 0]",c,foveal_unified,1
+GREEN,GREEN,SHORT,white,"[-0.7, 0]",c,foveal_unified,1
+BLUE,BLUE,PUB,white,"[-0.7, 0]",c,foveal_unified,1
+YELLOW,YELLOW,WEEKLY,white,"[-0.7, 0]",c,foveal_unified,1
+RED,RED,ROOM,white,"[0.7, 0]",c,foveal_unified,2
+GREEN,GREEN,SHORT,white,"[0.7, 0]",c,foveal_unified,2
+BLUE,BLUE,PUB,white,"[0.7, 0]",c,foveal_unified,2
+YELLOW,YELLOW,WEEKLY,white,"[0.7, 0]",c,foveal_unified,2
+RED,GREEN,ROOM,white,"[-0.7, 0]",ic,foveal_unified,3
+GREEN,BLUE,SHORT,white,"[-0.7, 0]",ic,foveal_unified,3

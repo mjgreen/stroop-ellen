@@ -1,4 +1,0 @@
-FovWord,FovCol,ParaWord,ParaCol,ParaPos,Compatibility,Condition,Trigger
-RED,RED,ROOM,white,"[-0.4, 0]",c,foveal_unified,1
-GREEN,GREEN,SHORT,white,"[-0.4, 0]",c,foveal_unified,1
-BLUE,BLUE,PUB,white,"[-0.4, 0]",c,foveal_unified,1
