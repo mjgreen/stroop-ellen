@@ -1,0 +1,3 @@
+"C:\Program Files\PsychoPy3\python.exe" -m psychopy.app.psychopyApp
+
+C:\Users\Experimenter\AppData\Roaming\psychopy3
