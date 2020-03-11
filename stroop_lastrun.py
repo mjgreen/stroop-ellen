@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v3.2.4),
-    on March 11, 2020, at 19:46
+This experiment was created using PsychoPy3 Experiment Builder (v2020.1.3),
+    on March 11, 2020, at 20:45
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -29,12 +29,14 @@ import sys  # to get file system encoding
 
 from psychopy.hardware import keyboard
 
+
+
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-psychopyVersion = '3.2.4'
+psychopyVersion = '2020.1.3'
 expName = 'stroop'  # from the Builder filename that created this script
 expInfo = {'session': '01', 'participant': ''}
 dlg = gui.DlgFromDict(dictionary=expInfo, sortKeys=False, title=expName)
@@ -124,7 +126,7 @@ thanksClock = core.Clock()
 thanksText = visual.TextStim(win=win, name='thanksText',
     text='This is the end of the experiment.\n\nThanks!',
     font='arial',
-    pos=[0, 0], height=0.1, wrapWidth=None, ori=0, 
+    pos=[0, 0], height=0.1, wrapWidth=2, ori=0, 
     color=[1, 1, 1], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
@@ -134,9 +136,11 @@ globalClock = core.Clock()  # to track the time since experiment started
 routineTimer = core.CountdownTimer()  # to track time remaining of each (non-slip) routine 
 
 # ------Prepare to start Routine "instruct"-------
+continueRoutine = True
 # update component parameters for each repeat
 spaceToStart.keys = []
 spaceToStart.rt = []
+_spaceToStart_allKeys = []
 # keep track of which components have finished
 instructComponents = [instrText, spaceToStart]
 for thisComponent in instructComponents:
@@ -151,7 +155,6 @@ t = 0
 _timeToFirstFrame = win.getFutureFlipTime(clock="now")
 instructClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
-continueRoutine = True
 
 # -------Run Routine "instruct"-------
 while continueRoutine:
@@ -181,15 +184,15 @@ while continueRoutine:
         win.timeOnFlip(spaceToStart, 'tStartRefresh')  # time at next scr refresh
         spaceToStart.status = STARTED
         # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(spaceToStart.clock.reset)  # t=0 on next screen flip
         win.callOnFlip(spaceToStart.clearEvents, eventType='keyboard')  # clear events on next screen flip
     if spaceToStart.status == STARTED and not waitOnFlip:
         theseKeys = spaceToStart.getKeys(keyList=['space'], waitRelease=False)
-        if len(theseKeys):
-            theseKeys = theseKeys[0]  # at least one key was pressed
-            
-            # check for quit:
-            if "escape" == theseKeys:
-                endExpNow = True
+        _spaceToStart_allKeys.extend(theseKeys)
+        if len(_spaceToStart_allKeys):
+            spaceToStart.keys = _spaceToStart_allKeys[-1].name  # just the last key pressed
+            spaceToStart.rt = _spaceToStart_allKeys[-1].rt
             # a response ends the routine
             continueRoutine = False
     
@@ -237,6 +240,7 @@ for thisTrial in trials:
             exec('{} = thisTrial[paramName]'.format(paramName))
     
     # ------Prepare to start Routine "trial"-------
+    continueRoutine = True
     # update component parameters for each repeat
     fovealWord.setColor(FovCol, colorSpace='rgb')
     fovealWord.setText(FovWord)
@@ -245,6 +249,7 @@ for thisTrial in trials:
     parafovealWord.setText(ParaWord)
     voicekey.keys = []
     voicekey.rt = []
+    _voicekey_allKeys = []
     mic = microphone.AdvAudioCapture(name='mic', saveDir=wavDirName, stereo=False, chnl=0)
     # keep track of which components have finished
     trialComponents = [fovealWord, parafovealWord, voicekey, p_port, mic]
@@ -260,7 +265,6 @@ for thisTrial in trials:
     _timeToFirstFrame = win.getFutureFlipTime(clock="now")
     trialClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
     frameN = -1
-    continueRoutine = True
     
     # -------Run Routine "trial"-------
     while continueRoutine:
@@ -328,15 +332,10 @@ for thisTrial in trials:
                 voicekey.status = FINISHED
         if voicekey.status == STARTED and not waitOnFlip:
             theseKeys = voicekey.getKeys(keyList=['0'], waitRelease=False)
-            if len(theseKeys):
-                theseKeys = theseKeys[0]  # at least one key was pressed
-                
-                # check for quit:
-                if "escape" == theseKeys:
-                    endExpNow = True
-                if voicekey.keys == []:  # then this was the first keypress
-                    voicekey.keys = theseKeys.name  # just the first key pressed
-                    voicekey.rt = theseKeys.rt
+            _voicekey_allKeys.extend(theseKeys)
+            if len(_voicekey_allKeys):
+                voicekey.keys = _voicekey_allKeys[0].name  # just the first key pressed
+                voicekey.rt = _voicekey_allKeys[0].rt
         # *p_port* updates
         if p_port.status == NOT_STARTED and len(voicekey.keys) > 0 and frameN <=148:
             # keep track of start time/frame for later
@@ -421,6 +420,7 @@ for thisTrial in trials:
     routineTimer.reset()
     
     # ------Prepare to start Routine "isi"-------
+    continueRoutine = True
     routineTimer.add(0.500000)
     # update component parameters for each repeat
     # keep track of which components have finished
@@ -437,7 +437,6 @@ for thisTrial in trials:
     _timeToFirstFrame = win.getFutureFlipTime(clock="now")
     isiClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
     frameN = -1
-    continueRoutine = True
     
     # -------Run Routine "isi"-------
     while continueRoutine and routineTimer.getTime() > 0:
@@ -496,6 +495,7 @@ trials.saveAsExcel(filename + '.xlsx', sheetName='trials',
     dataOut=['n','all_mean','all_std', 'all_raw'])
 
 # ------Prepare to start Routine "thanks"-------
+continueRoutine = True
 routineTimer.add(2.000000)
 # update component parameters for each repeat
 # keep track of which components have finished
@@ -512,7 +512,6 @@ t = 0
 _timeToFirstFrame = win.getFutureFlipTime(clock="now")
 thanksClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
 frameN = -1
-continueRoutine = True
 
 # -------Run Routine "thanks"-------
 while continueRoutine and routineTimer.getTime() > 0:
