@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.3),
-    on March 11, 2020, at 20:45
+    on March 12, 2020, at 12:31
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -52,7 +52,7 @@ filename = _thisDir + os.sep + u'data' + os.sep + '%s_%s' % (expInfo['participan
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\Experimenter\\Desktop\\stroop-ellen\\stroop_lastrun.py',
+    originPath='C:\\Users\\mgree\\gits\\stroop-ellen\\stroop_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
