@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.1.3),
-    on March 11, 2020, at 20:45
+    on March 12, 2020, at 17:10
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -71,7 +71,7 @@ if not os.path.isdir(wavDirName):
 win = visual.Window(
     size=[1024, 768], fullscr=True, screen=0, 
     winType='pyglet', allowGUI=False, allowStencil=False,
-    monitor='e330', color='black', colorSpace='rgb',
+    monitor='e330', color=[0.506,0.506,0.506], colorSpace='rgb',
     blendMode='avg', useFBO=True, 
     units='norm')
 
@@ -89,33 +89,55 @@ defaultKeyboard = keyboard.Keyboard()
 
 # Initialize components for Routine "instruct"
 instructClock = core.Clock()
-instrText = visual.TextStim(win=win, name='instrText',
+Instruction = visual.TextStim(win=win, name='Instruction',
     text='OK. Ready for the real thing?\n\nRemember, ignore the word itself; \njust say the name of the colour of the ink\n\n(Esc will quit)\n\nPress the spacebar to continue',
-    font='Arial',
+    font='Verdana',
     pos=[0, 0], height=0.1, wrapWidth=2, ori=0, 
-    color=[1, 1, 1], colorSpace='rgb', opacity=1, 
+    color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
 spaceToStart = keyboard.Keyboard()
 
 # Initialize components for Routine "trial"
 trialClock = core.Clock()
-fovealWord = visual.TextStim(win=win, name='fovealWord',
-    text='default text',
-    font='Arial',
-    pos=[0, 0], height=0.2, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
+Fixation = visual.TextStim(win=win, name='Fixation',
+    text='+',
+    font='Verdana',
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
+    color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
-parafovealWord = visual.TextStim(win=win, name='parafovealWord',
-    text='default text',
-    font='Arial',
-    pos=[0,0], height=0.2, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
+postFixBlank = visual.TextStim(win=win, name='postFixBlank',
+    text=None,
+    font='Verdana',
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
+    color='black', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-1.0);
+fovealWord = visual.TextStim(win=win, name='fovealWord',
+    text='default text',
+    font='Verdana',
+    pos=[0,0], height=0.05, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=-2.0);
+parafovealWord = visual.TextStim(win=win, name='parafovealWord',
+    text='default text',
+    font='Verdana',
+    pos=[0,0], height=0.05, wrapWidth=None, ori=0, 
+    color='white', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=-3.0);
+stimulusOnsetTrigger = parallel.ParallelPort(address='0x1000')
+postWordsBlank = visual.TextStim(win=win, name='postWordsBlank',
+    text=None,
+    font='Verdana',
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
+    color='black', colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=-5.0);
 voicekey = keyboard.Keyboard()
-p_port = parallel.ParallelPort(address='0x1000')
+responseOnsetTrigger = parallel.ParallelPort(address='0x1000')
 
 # Initialize components for Routine "isi"
 isiClock = core.Clock()
@@ -142,7 +164,7 @@ spaceToStart.keys = []
 spaceToStart.rt = []
 _spaceToStart_allKeys = []
 # keep track of which components have finished
-instructComponents = [instrText, spaceToStart]
+instructComponents = [Instruction, spaceToStart]
 for thisComponent in instructComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -165,14 +187,14 @@ while continueRoutine:
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
     
-    # *instrText* updates
-    if instrText.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+    # *Instruction* updates
+    if Instruction.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
         # keep track of start time/frame for later
-        instrText.frameNStart = frameN  # exact frame index
-        instrText.tStart = t  # local t and not account for scr refresh
-        instrText.tStartRefresh = tThisFlipGlobal  # on global time
-        win.timeOnFlip(instrText, 'tStartRefresh')  # time at next scr refresh
-        instrText.setAutoDraw(True)
+        Instruction.frameNStart = frameN  # exact frame index
+        Instruction.tStart = t  # local t and not account for scr refresh
+        Instruction.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(Instruction, 'tStartRefresh')  # time at next scr refresh
+        Instruction.setAutoDraw(True)
     
     # *spaceToStart* updates
     waitOnFlip = False
@@ -223,7 +245,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 trials = data.TrialHandler(nReps=1.0, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('stimuli-csvfiles\\trialTypes10trials.csv'),
+    trialList=data.importConditions('stimuli-csvfiles\\Stroop stimuli.csv'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -252,7 +274,7 @@ for thisTrial in trials:
     _voicekey_allKeys = []
     mic = microphone.AdvAudioCapture(name='mic', saveDir=wavDirName, stereo=False, chnl=0)
     # keep track of which components have finished
-    trialComponents = [fovealWord, parafovealWord, voicekey, p_port, mic]
+    trialComponents = [Fixation, postFixBlank, fovealWord, parafovealWord, stimulusOnsetTrigger, postWordsBlank, voicekey, responseOnsetTrigger, mic]
     for thisComponent in trialComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -275,8 +297,42 @@ for thisTrial in trials:
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
+        # *Fixation* updates
+        if Fixation.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            Fixation.frameNStart = frameN  # exact frame index
+            Fixation.tStart = t  # local t and not account for scr refresh
+            Fixation.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(Fixation, 'tStartRefresh')  # time at next scr refresh
+            Fixation.setAutoDraw(True)
+        if Fixation.status == STARTED:
+            # is it time to stop? (based on local clock)
+            if tThisFlip > 0.3-frameTolerance:
+                # keep track of stop time/frame for later
+                Fixation.tStop = t  # not accounting for scr refresh
+                Fixation.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(Fixation, 'tStopRefresh')  # time at next scr refresh
+                Fixation.setAutoDraw(False)
+        
+        # *postFixBlank* updates
+        if postFixBlank.status == NOT_STARTED and tThisFlip >= 0.3-frameTolerance:
+            # keep track of start time/frame for later
+            postFixBlank.frameNStart = frameN  # exact frame index
+            postFixBlank.tStart = t  # local t and not account for scr refresh
+            postFixBlank.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(postFixBlank, 'tStartRefresh')  # time at next scr refresh
+            postFixBlank.setAutoDraw(True)
+        if postFixBlank.status == STARTED:
+            # is it time to stop? (based on local clock)
+            if tThisFlip > 0.5-frameTolerance:
+                # keep track of stop time/frame for later
+                postFixBlank.tStop = t  # not accounting for scr refresh
+                postFixBlank.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(postFixBlank, 'tStopRefresh')  # time at next scr refresh
+                postFixBlank.setAutoDraw(False)
+        
         # *fovealWord* updates
-        if fovealWord.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+        if fovealWord.status == NOT_STARTED and tThisFlip >= .5-frameTolerance:
             # keep track of start time/frame for later
             fovealWord.frameNStart = frameN  # exact frame index
             fovealWord.tStart = t  # local t and not account for scr refresh
@@ -285,7 +341,7 @@ for thisTrial in trials:
             fovealWord.setAutoDraw(True)
         if fovealWord.status == STARTED:
             # is it time to stop? (based on local clock)
-            if tThisFlip > 2.0-frameTolerance:
+            if tThisFlip > .65-frameTolerance:
                 # keep track of stop time/frame for later
                 fovealWord.tStop = t  # not accounting for scr refresh
                 fovealWord.frameNStop = frameN  # exact frame index
@@ -293,7 +349,7 @@ for thisTrial in trials:
                 fovealWord.setAutoDraw(False)
         
         # *parafovealWord* updates
-        if parafovealWord.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+        if parafovealWord.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
             # keep track of start time/frame for later
             parafovealWord.frameNStart = frameN  # exact frame index
             parafovealWord.tStart = t  # local t and not account for scr refresh
@@ -302,16 +358,51 @@ for thisTrial in trials:
             parafovealWord.setAutoDraw(True)
         if parafovealWord.status == STARTED:
             # is it time to stop? (based on local clock)
-            if tThisFlip > 2.0-frameTolerance:
+            if tThisFlip > 0.65-frameTolerance:
                 # keep track of stop time/frame for later
                 parafovealWord.tStop = t  # not accounting for scr refresh
                 parafovealWord.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(parafovealWord, 'tStopRefresh')  # time at next scr refresh
                 parafovealWord.setAutoDraw(False)
+        # *stimulusOnsetTrigger* updates
+        if stimulusOnsetTrigger.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+            # keep track of start time/frame for later
+            stimulusOnsetTrigger.frameNStart = frameN  # exact frame index
+            stimulusOnsetTrigger.tStart = t  # local t and not account for scr refresh
+            stimulusOnsetTrigger.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(stimulusOnsetTrigger, 'tStartRefresh')  # time at next scr refresh
+            stimulusOnsetTrigger.status = STARTED
+            win.callOnFlip(stimulusOnsetTrigger.setData, int(StimTrig))
+        if stimulusOnsetTrigger.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > stimulusOnsetTrigger.tStartRefresh + 0.15-frameTolerance:
+                # keep track of stop time/frame for later
+                stimulusOnsetTrigger.tStop = t  # not accounting for scr refresh
+                stimulusOnsetTrigger.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(stimulusOnsetTrigger, 'tStopRefresh')  # time at next scr refresh
+                stimulusOnsetTrigger.status = FINISHED
+                win.callOnFlip(stimulusOnsetTrigger.setData, int(0))
+        
+        # *postWordsBlank* updates
+        if postWordsBlank.status == NOT_STARTED and tThisFlip >= 0.65-frameTolerance:
+            # keep track of start time/frame for later
+            postWordsBlank.frameNStart = frameN  # exact frame index
+            postWordsBlank.tStart = t  # local t and not account for scr refresh
+            postWordsBlank.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(postWordsBlank, 'tStartRefresh')  # time at next scr refresh
+            postWordsBlank.setAutoDraw(True)
+        if postWordsBlank.status == STARTED:
+            # is it time to stop? (based on local clock)
+            if tThisFlip > 2.0-frameTolerance:
+                # keep track of stop time/frame for later
+                postWordsBlank.tStop = t  # not accounting for scr refresh
+                postWordsBlank.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(postWordsBlank, 'tStopRefresh')  # time at next scr refresh
+                postWordsBlank.setAutoDraw(False)
         
         # *voicekey* updates
         waitOnFlip = False
-        if voicekey.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+        if voicekey.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
             # keep track of start time/frame for later
             voicekey.frameNStart = frameN  # exact frame index
             voicekey.tStart = t  # local t and not account for scr refresh
@@ -336,33 +427,33 @@ for thisTrial in trials:
             if len(_voicekey_allKeys):
                 voicekey.keys = _voicekey_allKeys[0].name  # just the first key pressed
                 voicekey.rt = _voicekey_allKeys[0].rt
-        # *p_port* updates
-        if p_port.status == NOT_STARTED and len(voicekey.keys) > 0 and frameN <=148:
+        # *responseOnsetTrigger* updates
+        if responseOnsetTrigger.status == NOT_STARTED and len(voicekey.keys) > 0 and frameN <=148:
             # keep track of start time/frame for later
-            p_port.frameNStart = frameN  # exact frame index
-            p_port.tStart = t  # local t and not account for scr refresh
-            p_port.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(p_port, 'tStartRefresh')  # time at next scr refresh
-            p_port.status = STARTED
-            win.callOnFlip(p_port.setData, int(Trigger))
-        if p_port.status == STARTED:
-            if frameN >= (p_port.frameNStart + 2):
+            responseOnsetTrigger.frameNStart = frameN  # exact frame index
+            responseOnsetTrigger.tStart = t  # local t and not account for scr refresh
+            responseOnsetTrigger.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(responseOnsetTrigger, 'tStartRefresh')  # time at next scr refresh
+            responseOnsetTrigger.status = STARTED
+            win.callOnFlip(responseOnsetTrigger.setData, int(RespTrig))
+        if responseOnsetTrigger.status == STARTED:
+            if frameN >= (responseOnsetTrigger.frameNStart + 2):
                 # keep track of stop time/frame for later
-                p_port.tStop = t  # not accounting for scr refresh
-                p_port.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(p_port, 'tStopRefresh')  # time at next scr refresh
-                p_port.status = FINISHED
-                win.callOnFlip(p_port.setData, int(0))
+                responseOnsetTrigger.tStop = t  # not accounting for scr refresh
+                responseOnsetTrigger.frameNStop = frameN  # exact frame index
+                win.timeOnFlip(responseOnsetTrigger, 'tStopRefresh')  # time at next scr refresh
+                responseOnsetTrigger.status = FINISHED
+                win.callOnFlip(responseOnsetTrigger.setData, int(0))
         
         # *mic* updates
-        if mic.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+        if mic.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
             # keep track of start time/frame for later
             mic.frameNStart = frameN  # exact frame index
             mic.tStart = t  # local t and not account for scr refresh
             mic.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(mic, 'tStartRefresh')  # time at next scr refresh
             mic.status = STARTED
-            mic.record(sec=2.0, block=False)  # start the recording thread
+            mic.record(sec=1.5, block=False)  # start the recording thread
         
         if mic.status == STARTED and not mic.recorder.running:
             mic.status = FINISHED
@@ -392,10 +483,20 @@ for thisTrial in trials:
     for thisComponent in trialComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+    trials.addData('Fixation.started', Fixation.tStartRefresh)
+    trials.addData('Fixation.stopped', Fixation.tStopRefresh)
+    trials.addData('postFixBlank.started', postFixBlank.tStartRefresh)
+    trials.addData('postFixBlank.stopped', postFixBlank.tStopRefresh)
     trials.addData('fovealWord.started', fovealWord.tStartRefresh)
     trials.addData('fovealWord.stopped', fovealWord.tStopRefresh)
     trials.addData('parafovealWord.started', parafovealWord.tStartRefresh)
     trials.addData('parafovealWord.stopped', parafovealWord.tStopRefresh)
+    if stimulusOnsetTrigger.status == STARTED:
+        win.callOnFlip(stimulusOnsetTrigger.setData, int(0))
+    trials.addData('stimulusOnsetTrigger.started', stimulusOnsetTrigger.tStartRefresh)
+    trials.addData('stimulusOnsetTrigger.stopped', stimulusOnsetTrigger.tStopRefresh)
+    trials.addData('postWordsBlank.started', postWordsBlank.tStartRefresh)
+    trials.addData('postWordsBlank.stopped', postWordsBlank.tStopRefresh)
     # check responses
     if voicekey.keys in ['', [], None]:  # No response was made
         voicekey.keys = None
@@ -404,10 +505,10 @@ for thisTrial in trials:
         trials.addData('voicekey.rt', voicekey.rt)
     trials.addData('voicekey.started', voicekey.tStartRefresh)
     trials.addData('voicekey.stopped', voicekey.tStopRefresh)
-    if p_port.status == STARTED:
-        win.callOnFlip(p_port.setData, int(0))
-    trials.addData('p_port.started', p_port.tStartRefresh)
-    trials.addData('p_port.stopped', p_port.tStopRefresh)
+    if responseOnsetTrigger.status == STARTED:
+        win.callOnFlip(responseOnsetTrigger.setData, int(0))
+    trials.addData('responseOnsetTrigger.started', responseOnsetTrigger.tStartRefresh)
+    trials.addData('responseOnsetTrigger.stopped', responseOnsetTrigger.tStopRefresh)
     # mic stop & responses
     mic.stop()  # sometimes helpful
     if not mic.savedFile:
@@ -421,7 +522,7 @@ for thisTrial in trials:
     
     # ------Prepare to start Routine "isi"-------
     continueRoutine = True
-    routineTimer.add(0.500000)
+    routineTimer.add(0.100000)
     # update component parameters for each repeat
     # keep track of which components have finished
     isiComponents = [ISI]
@@ -453,7 +554,7 @@ for thisTrial in trials:
             ISI.tStart = t  # local t and not account for scr refresh
             ISI.tStartRefresh = tThisFlipGlobal  # on global time
             win.timeOnFlip(ISI, 'tStartRefresh')  # time at next scr refresh
-            ISI.start(0.5)
+            ISI.start(0.1)
         elif ISI.status == STARTED:  # one frame should pass before updating params and completing
             ISI.complete()  # finish the static period
         

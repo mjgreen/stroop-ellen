@@ -1,1025 +1,1025 @@
-block,FovWord,ParaWord,FovCol,ParaCol,ParaLoc,Congruency,Condition,Correct,Trigger,CheckFoveal,CheckPara,correct
-1,RED,MAIN,RED,black,Left,c,foveal_unified,1,?,1,5,RED
-1,GREEN,SHORT,GREEN,black,Left,c,foveal_unified,2,?,2,6,GREEN
-1,BLUE,SIDE,BLUE,black,Left,c,foveal_unified,3,?,3,7,BLUE
-1,YELLOW,LABEL,YELLOW,black,Left,c,foveal_unified,4,?,4,8,YELLOW
-1,RED,SHORT,RED,black,Right,c,foveal_unified,1,?,1,6,RED
-1,GREEN,SIDE,GREEN,black,Right,c,foveal_unified,2,?,2,7,GREEN
-1,BLUE,LABEL,BLUE,black,Right,c,foveal_unified,3,?,3,8,BLUE
-1,YELLOW,MAIN,YELLOW,black,Right,c,foveal_unified,4,?,4,5,YELLOW
-1,RED,SIDE,GREEN,black,Left,ic,foveal_unified,2,?,1,7,GREEN
-1,GREEN,LABEL,BLUE,black,Left,ic,foveal_unified,3,?,2,8,BLUE
-1,BLUE,MAIN,YELLOW,black,Left,ic,foveal_unified,4,?,3,5,YELLOW
-1,YELLOW,SHORT,RED,black,Left,ic,foveal_unified,1,?,4,6,RED
-1,RED,LABEL,BLUE,black,Right,ic,foveal_unified,3,?,1,8,BLUE
-1,GREEN,MAIN,YELLOW,black,Right,ic,foveal_unified,4,?,2,5,YELLOW
-1,BLUE,SHORT,RED,black,Right,ic,foveal_unified,1,?,3,6,RED
-1,YELLOW,SIDE,GREEN,black,Right,ic,foveal_unified,2,?,4,7,GREEN
-1,RED,MAIN,black,RED,Left,c,para_dis,1,?,1,5,RED
-1,GREEN,SHORT,black,GREEN,Left,c,para_dis,2,?,2,6,GREEN
-1,BLUE,SIDE,black,BLUE,Left,c,para_dis,3,?,3,7,BLUE
-1,YELLOW,LABEL,black,YELLOW,Left,c,para_dis,4,?,4,8,YELLOW
-1,RED,SHORT,black,RED,Right,c,para_dis,1,?,1,6,RED
-1,GREEN,SIDE,black,GREEN,Right,c,para_dis,2,?,2,7,GREEN
-1,BLUE,LABEL,black,BLUE,Right,c,para_dis,3,?,3,8,BLUE
-1,YELLOW,MAIN,black,YELLOW,Right,c,para_dis,4,?,4,5,YELLOW
-1,RED,SIDE,black,GREEN,left,ic,para_dis,2,?,1,7,GREEN
-1,GREEN,LABEL,black,BLUE,left,ic,para_dis,3,?,2,8,BLUE
-1,BLUE,MAIN,black,YELLOW,left,ic,para_dis,4,?,3,5,YELLOW
-1,YELLOW,SHORT,black,RED,left,ic,para_dis,1,?,4,6,RED
-1,RED,LABEL,black,BLUE,right,ic,para_dis,3,?,1,8,BLUE
-1,GREEN,MAIN,black,YELLOW,right,ic,para_dis,4,?,2,5,YELLOW
-1,BLUE,SHORT,black,RED,right,ic,para_dis,1,?,3,6,RED
-1,YELLOW,SIDE,black,GREEN,right,ic,para_dis,2,?,4,7,GREEN
-1,MAIN,RED,RED,black,left,c,fov_dis,1,?,5,1,RED
-1,SHORT,GREEN,GREEN,black,left,c,fov_dis,2,?,6,2,GREEN
-1,SIDE,BLUE,BLUE,black,left,c,fov_dis,3,?,7,3,BLUE
-1,LABEL,YELLOW,YELLOW,black,left,c,fov_dis,4,?,8,4,YELLOW
-1,SHORT,RED,RED,black,right,c,fov_dis,1,?,6,1,RED
-1,SIDE,GREEN,GREEN,black,right,c,fov_dis,2,?,7,2,GREEN
-1,LABEL,BLUE,BLUE,black,right,c,fov_dis,3,?,8,3,BLUE
-1,MAIN,YELLOW,YELLOW,black,right,c,fov_dis,4,?,5,4,YELLOW
-1,SIDE,RED,BLUE,black,left,ic,fov_dis,3,?,7,1,BLUE
-1,LABEL,GREEN,YELLOW,black,left,ic,fov_dis,4,?,8,2,YELLOW
-1,MAIN,BLUE,RED,black,left,ic,fov_dis,1,?,5,3,RED
-1,SHORT,YELLOW,GREEN,black,left,ic,fov_dis,2,?,6,4,GREEN
-1,LABEL,RED,YELLOW,black,right,ic,fov_dis,4,?,8,1,YELLOW
-1,MAIN,GREEN,RED,black,right,ic,fov_dis,1,?,5,2,RED
-1,SHORT,BLUE,GREEN,black,right,ic,fov_dis,2,?,6,3,GREEN
-1,SIDE,YELLOW,BLUE,black,right,ic,fov_dis,3,?,7,4,BLUE
-1,MAIN,RED,black,RED,left,c,para_unified,1,?,5,1,RED
-1,SHORT,GREEN,black,GREEN,left,c,para_unified,2,?,6,2,GREEN
-1,SIDE,BLUE,black,BLUE,left,c,para_unified,3,?,7,3,BLUE
-1,LABEL,YELLOW,black,YELLOW,left,c,para_unified,4,?,8,4,YELLOW
-1,SHORT,RED,black,RED,right,c,para_unified,1,?,6,1,RED
-1,SIDE,GREEN,black,GREEN,right,c,para_unified,2,?,7,2,GREEN
-1,LABEL,BLUE,black,BLUE,right,c,para_unified,3,?,8,3,BLUE
-1,MAIN,YELLOW,black,YELLOW,right,c,para_unified,4,?,5,4,YELLOW
-1,SIDE,RED,black,BLUE,left,ic,para_unified,3,?,7,1,BLUE
-1,LABEL,GREEN,black,YELLOW,left,ic,para_unified,4,?,8,2,YELLOW
-1,MAIN,BLUE,black,RED,left,ic,para_unified,1,?,5,3,RED
-1,SHORT,YELLOW,black,GREEN,left,ic,para_unified,2,?,6,4,GREEN
-1,LABEL,RED,black,YELLOW,right,ic,para_unified,4,?,8,1,YELLOW
-1,MAIN,GREEN,black,RED,right,ic,para_unified,1,?,5,2,RED
-1,SHORT,BLUE,black,GREEN,right,ic,para_unified,2,?,6,3,GREEN
-1,SIDE,YELLOW,black,BLUE,right,ic,para_unified,3,?,7,4,BLUE
-2,RED,SHORT,RED,black,Left,c,foveal_unified,1,?,1,6,RED
-2,GREEN,SIDE,GREEN,black,Left,c,foveal_unified,2,?,2,7,GREEN
-2,BLUE,LABEL,BLUE,black,Left,c,foveal_unified,3,?,3,8,BLUE
-2,YELLOW,MAIN,YELLOW,black,Left,c,foveal_unified,4,?,4,5,YELLOW
-2,RED,SIDE,RED,black,Right,c,foveal_unified,1,?,1,7,RED
-2,GREEN,LABEL,GREEN,black,Right,c,foveal_unified,2,?,2,8,GREEN
-2,BLUE,MAIN,BLUE,black,Right,c,foveal_unified,3,?,3,5,BLUE
-2,YELLOW,SHORT,YELLOW,black,Right,c,foveal_unified,4,?,4,6,YELLOW
-2,RED,LABEL,YELLOW,black,Left,ic,foveal_unified,4,?,1,8,YELLOW
-2,GREEN,MAIN,RED,black,Left,ic,foveal_unified,1,?,2,5,RED
-2,BLUE,SHORT,GREEN,black,Left,ic,foveal_unified,2,?,3,6,GREEN
-2,YELLOW,SIDE,BLUE,black,Left,ic,foveal_unified,3,?,4,7,BLUE
-2,RED,MAIN,GREEN,black,Right,ic,foveal_unified,2,?,1,5,GREEN
-2,GREEN,SHORT,BLUE,black,Right,ic,foveal_unified,3,?,2,6,BLUE
-2,BLUE,SIDE,YELLOW,black,Right,ic,foveal_unified,4,?,3,7,YELLOW
-2,YELLOW,LABEL,RED,black,Right,ic,foveal_unified,1,?,4,8,RED
-2,RED,SHORT,black,RED,Left,c,para_dis,1,?,1,6,RED
-2,GREEN,SIDE,black,GREEN,Left,c,para_dis,2,?,2,7,GREEN
-2,BLUE,LABEL,black,BLUE,Left,c,para_dis,3,?,3,8,BLUE
-2,YELLOW,MAIN,black,YELLOW,Left,c,para_dis,4,?,4,5,YELLOW
-2,RED,SIDE,black,RED,Right,c,para_dis,1,?,1,7,RED
-2,GREEN,LABEL,black,GREEN,Right,c,para_dis,2,?,2,8,GREEN
-2,BLUE,MAIN,black,BLUE,Right,c,para_dis,3,?,3,5,BLUE
-2,YELLOW,SHORT,black,YELLOW,Right,c,para_dis,4,?,4,6,YELLOW
-2,RED,LABEL,black,YELLOW,left,ic,para_dis,4,?,1,8,YELLOW
-2,GREEN,MAIN,black,RED,left,ic,para_dis,1,?,2,5,RED
-2,BLUE,SHORT,black,GREEN,left,ic,para_dis,2,?,3,6,GREEN
-2,YELLOW,SIDE,black,BLUE,left,ic,para_dis,3,?,4,7,BLUE
-2,RED,MAIN,black,GREEN,right,ic,para_dis,2,?,1,5,GREEN
-2,GREEN,SHORT,black,BLUE,right,ic,para_dis,3,?,2,6,BLUE
-2,BLUE,SIDE,black,YELLOW,right,ic,para_dis,4,?,3,7,YELLOW
-2,YELLOW,LABEL,black,RED,right,ic,para_dis,1,?,4,8,RED
-2,SHORT,RED,RED,black,left,c,fov_dis,1,?,6,1,RED
-2,SIDE,GREEN,GREEN,black,left,c,fov_dis,2,?,7,2,GREEN
-2,LABEL,BLUE,BLUE,black,left,c,fov_dis,3,?,8,3,BLUE
-2,MAIN,YELLOW,YELLOW,black,left,c,fov_dis,4,?,5,4,YELLOW
-2,SIDE,RED,RED,black,right,c,fov_dis,1,?,7,1,RED
-2,LABEL,GREEN,GREEN,black,right,c,fov_dis,2,?,8,2,GREEN
-2,MAIN,BLUE,BLUE,black,right,c,fov_dis,3,?,5,3,BLUE
-2,SHORT,YELLOW,YELLOW,black,right,c,fov_dis,4,?,6,4,YELLOW
-2,LABEL,RED,GREEN,black,left,ic,fov_dis,2,?,8,1,GREEN
-2,MAIN,GREEN,BLUE,black,left,ic,fov_dis,3,?,5,2,BLUE
-2,SHORT,BLUE,YELLOW,black,left,ic,fov_dis,4,?,6,3,YELLOW
-2,SIDE,YELLOW,RED,black,left,ic,fov_dis,1,?,7,4,RED
-2,MAIN,RED,BLUE,black,right,ic,fov_dis,3,?,5,1,BLUE
-2,SHORT,GREEN,YELLOW,black,right,ic,fov_dis,4,?,6,2,YELLOW
-2,SIDE,BLUE,RED,black,right,ic,fov_dis,1,?,7,3,RED
-2,LABEL,YELLOW,GREEN,black,right,ic,fov_dis,2,?,8,4,GREEN
-2,SHORT,RED,black,RED,left,c,para_unified,1,?,6,1,RED
-2,SIDE,GREEN,black,GREEN,left,c,para_unified,2,?,7,2,GREEN
-2,LABEL,BLUE,black,BLUE,left,c,para_unified,3,?,8,3,BLUE
-2,MAIN,YELLOW,black,YELLOW,left,c,para_unified,4,?,5,4,YELLOW
-2,SIDE,RED,black,RED,right,c,para_unified,1,?,7,1,RED
-2,LABEL,GREEN,black,GREEN,right,c,para_unified,2,?,8,2,GREEN
-2,MAIN,BLUE,black,BLUE,right,c,para_unified,3,?,5,3,BLUE
-2,SHORT,YELLOW,black,YELLOW,right,c,para_unified,4,?,6,4,YELLOW
-2,LABEL,RED,black,GREEN,left,ic,para_unified,2,?,8,1,GREEN
-2,MAIN,GREEN,black,BLUE,left,ic,para_unified,3,?,5,2,BLUE
-2,SHORT,BLUE,black,YELLOW,left,ic,para_unified,4,?,6,3,YELLOW
-2,SIDE,YELLOW,black,RED,left,ic,para_unified,1,?,7,4,RED
-2,MAIN,RED,black,BLUE,right,ic,para_unified,3,?,5,1,BLUE
-2,SHORT,GREEN,black,YELLOW,right,ic,para_unified,4,?,6,2,YELLOW
-2,SIDE,BLUE,black,RED,right,ic,para_unified,1,?,7,3,RED
-2,LABEL,YELLOW,black,GREEN,right,ic,para_unified,2,?,8,4,GREEN
-3,RED,SIDE,RED,black,Left,c,foveal_unified,1,?,1,7,RED
-3,GREEN,LABEL,GREEN,black,Left,c,foveal_unified,2,?,2,8,GREEN
-3,BLUE,MAIN,BLUE,black,Left,c,foveal_unified,3,?,3,5,BLUE
-3,YELLOW,SHORT,YELLOW,black,Left,c,foveal_unified,4,?,4,6,YELLOW
-3,RED,LABEL,RED,black,Right,c,foveal_unified,1,?,1,8,RED
-3,GREEN,MAIN,GREEN,black,Right,c,foveal_unified,2,?,2,5,GREEN
-3,BLUE,SHORT,BLUE,black,Right,c,foveal_unified,3,?,3,6,BLUE
-3,YELLOW,SIDE,YELLOW,black,Right,c,foveal_unified,4,?,4,7,YELLOW
-3,RED,MAIN,GREEN,black,Left,ic,foveal_unified,2,?,1,5,GREEN
-3,GREEN,SHORT,BLUE,black,Left,ic,foveal_unified,3,?,2,6,BLUE
-3,BLUE,SIDE,YELLOW,black,Left,ic,foveal_unified,4,?,3,7,YELLOW
-3,YELLOW,LABEL,RED,black,Left,ic,foveal_unified,1,?,4,8,RED
-3,RED,SHORT,BLUE,black,Right,ic,foveal_unified,3,?,1,6,BLUE
-3,GREEN,SIDE,YELLOW,black,Right,ic,foveal_unified,4,?,2,7,YELLOW
-3,BLUE,LABEL,RED,black,Right,ic,foveal_unified,1,?,3,8,RED
-3,YELLOW,MAIN,GREEN,black,Right,ic,foveal_unified,2,?,4,5,GREEN
-3,RED,SIDE,black,RED,Left,c,para_dis,1,?,1,7,RED
-3,GREEN,LABEL,black,GREEN,Left,c,para_dis,2,?,2,8,GREEN
-3,BLUE,MAIN,black,BLUE,Left,c,para_dis,3,?,3,5,BLUE
-3,YELLOW,SHORT,black,YELLOW,Left,c,para_dis,4,?,4,6,YELLOW
-3,RED,LABEL,black,RED,Right,c,para_dis,1,?,1,8,RED
-3,GREEN,MAIN,black,GREEN,Right,c,para_dis,2,?,2,5,GREEN
-3,BLUE,SHORT,black,BLUE,Right,c,para_dis,3,?,3,6,BLUE
-3,YELLOW,SIDE,black,YELLOW,Right,c,para_dis,4,?,4,7,YELLOW
-3,RED,MAIN,black,GREEN,left,ic,para_dis,2,?,1,5,GREEN
-3,GREEN,SHORT,black,BLUE,left,ic,para_dis,3,?,2,6,BLUE
-3,BLUE,SIDE,black,YELLOW,left,ic,para_dis,4,?,3,7,YELLOW
-3,YELLOW,LABEL,black,RED,left,ic,para_dis,1,?,4,8,RED
-3,RED,SHORT,black,BLUE,right,ic,para_dis,3,?,1,6,BLUE
-3,GREEN,SIDE,black,YELLOW,right,ic,para_dis,4,?,2,7,YELLOW
-3,BLUE,LABEL,black,RED,right,ic,para_dis,1,?,3,8,RED
-3,YELLOW,MAIN,black,GREEN,right,ic,para_dis,2,?,4,5,GREEN
-3,SIDE,RED,RED,black,left,c,fov_dis,1,?,7,1,RED
-3,LABEL,GREEN,GREEN,black,left,c,fov_dis,2,?,8,2,GREEN
-3,MAIN,BLUE,BLUE,black,left,c,fov_dis,3,?,5,3,BLUE
-3,SHORT,YELLOW,YELLOW,black,left,c,fov_dis,4,?,6,4,YELLOW
-3,LABEL,RED,RED,black,right,c,fov_dis,1,?,8,1,RED
-3,MAIN,GREEN,GREEN,black,right,c,fov_dis,2,?,5,2,GREEN
-3,SHORT,BLUE,BLUE,black,right,c,fov_dis,3,?,6,3,BLUE
-3,SIDE,YELLOW,YELLOW,black,right,c,fov_dis,4,?,7,4,YELLOW
-3,MAIN,RED,BLUE,black,left,ic,fov_dis,3,?,5,1,BLUE
-3,SHORT,GREEN,YELLOW,black,left,ic,fov_dis,4,?,6,2,YELLOW
-3,SIDE,BLUE,RED,black,left,ic,fov_dis,1,?,7,3,RED
-3,LABEL,YELLOW,GREEN,black,left,ic,fov_dis,2,?,8,4,GREEN
-3,SHORT,RED,YELLOW,black,right,ic,fov_dis,4,?,6,1,YELLOW
-3,SIDE,GREEN,RED,black,right,ic,fov_dis,1,?,7,2,RED
-3,LABEL,BLUE,GREEN,black,right,ic,fov_dis,2,?,8,3,GREEN
-3,MAIN,YELLOW,BLUE,black,right,ic,fov_dis,3,?,5,4,BLUE
-3,SIDE,RED,black,RED,left,c,para_unified,1,?,7,1,RED
-3,LABEL,GREEN,black,GREEN,left,c,para_unified,2,?,8,2,GREEN
-3,MAIN,BLUE,black,BLUE,left,c,para_unified,3,?,5,3,BLUE
-3,SHORT,YELLOW,black,YELLOW,left,c,para_unified,4,?,6,4,YELLOW
-3,LABEL,RED,black,RED,right,c,para_unified,1,?,8,1,RED
-3,MAIN,GREEN,black,GREEN,right,c,para_unified,2,?,5,2,GREEN
-3,SHORT,BLUE,black,BLUE,right,c,para_unified,3,?,6,3,BLUE
-3,SIDE,YELLOW,black,YELLOW,right,c,para_unified,4,?,7,4,YELLOW
-3,MAIN,RED,black,BLUE,left,ic,para_unified,3,?,5,1,BLUE
-3,SHORT,GREEN,black,YELLOW,left,ic,para_unified,4,?,6,2,YELLOW
-3,SIDE,BLUE,black,RED,left,ic,para_unified,1,?,7,3,RED
-3,LABEL,YELLOW,black,GREEN,left,ic,para_unified,2,?,8,4,GREEN
-3,SHORT,RED,black,YELLOW,right,ic,para_unified,4,?,6,1,YELLOW
-3,SIDE,GREEN,black,RED,right,ic,para_unified,1,?,7,2,RED
-3,LABEL,BLUE,black,GREEN,right,ic,para_unified,2,?,8,3,GREEN
-3,MAIN,YELLOW,black,BLUE,right,ic,para_unified,3,?,5,4,BLUE
-4,RED,LABEL,RED,black,Left,c,foveal_unified,1,?,1,8,RED
-4,GREEN,MAIN,GREEN,black,Left,c,foveal_unified,2,?,2,5,GREEN
-4,BLUE,SHORT,BLUE,black,Left,c,foveal_unified,3,?,3,6,BLUE
-4,YELLOW,SIDE,YELLOW,black,Left,c,foveal_unified,4,?,4,7,YELLOW
-4,RED,MAIN,RED,black,Right,c,foveal_unified,1,?,1,5,RED
-4,GREEN,SHORT,GREEN,black,Right,c,foveal_unified,2,?,2,6,GREEN
-4,BLUE,SIDE,BLUE,black,Right,c,foveal_unified,3,?,3,7,BLUE
-4,YELLOW,LABEL,YELLOW,black,Right,c,foveal_unified,4,?,4,8,YELLOW
-4,RED,SHORT,YELLOW,black,Left,ic,foveal_unified,4,?,1,6,YELLOW
-4,GREEN,SIDE,RED,black,Left,ic,foveal_unified,1,?,2,7,RED
-4,BLUE,LABEL,GREEN,black,Left,ic,foveal_unified,2,?,3,8,GREEN
-4,YELLOW,MAIN,BLUE,black,Left,ic,foveal_unified,3,?,4,5,BLUE
-4,RED,SIDE,GREEN,black,Right,ic,foveal_unified,2,?,1,7,GREEN
-4,GREEN,LABEL,BLUE,black,Right,ic,foveal_unified,3,?,2,8,BLUE
-4,BLUE,MAIN,YELLOW,black,Right,ic,foveal_unified,4,?,3,5,YELLOW
-4,YELLOW,SHORT,RED,black,Right,ic,foveal_unified,1,?,4,6,RED
-4,RED,LABEL,black,RED,Left,c,para_dis,1,?,1,8,RED
-4,GREEN,MAIN,black,GREEN,Left,c,para_dis,2,?,2,5,GREEN
-4,BLUE,SHORT,black,BLUE,Left,c,para_dis,3,?,3,6,BLUE
-4,YELLOW,SIDE,black,YELLOW,Left,c,para_dis,4,?,4,7,YELLOW
-4,RED,MAIN,black,RED,Right,c,para_dis,1,?,1,5,RED
-4,GREEN,SHORT,black,GREEN,Right,c,para_dis,2,?,2,6,GREEN
-4,BLUE,SIDE,black,BLUE,Right,c,para_dis,3,?,3,7,BLUE
-4,YELLOW,LABEL,black,YELLOW,Right,c,para_dis,4,?,4,8,YELLOW
-4,RED,SHORT,black,YELLOW,left,ic,para_dis,4,?,1,6,YELLOW
-4,GREEN,SIDE,black,RED,left,ic,para_dis,1,?,2,7,RED
-4,BLUE,LABEL,black,GREEN,left,ic,para_dis,2,?,3,8,GREEN
-4,YELLOW,MAIN,black,BLUE,left,ic,para_dis,3,?,4,5,BLUE
-4,RED,SIDE,black,GREEN,right,ic,para_dis,2,?,1,7,GREEN
-4,GREEN,LABEL,black,BLUE,right,ic,para_dis,3,?,2,8,BLUE
-4,BLUE,MAIN,black,YELLOW,right,ic,para_dis,4,?,3,5,YELLOW
-4,YELLOW,SHORT,black,RED,right,ic,para_dis,1,?,4,6,RED
-4,LABEL,RED,RED,black,left,c,fov_dis,1,?,8,1,RED
-4,MAIN,GREEN,GREEN,black,left,c,fov_dis,2,?,5,2,GREEN
-4,SHORT,BLUE,BLUE,black,left,c,fov_dis,3,?,6,3,BLUE
-4,SIDE,YELLOW,YELLOW,black,left,c,fov_dis,4,?,7,4,YELLOW
-4,MAIN,RED,RED,black,right,c,fov_dis,1,?,5,1,RED
-4,SHORT,GREEN,GREEN,black,right,c,fov_dis,2,?,6,2,GREEN
-4,SIDE,BLUE,BLUE,black,right,c,fov_dis,3,?,7,3,BLUE
-4,LABEL,YELLOW,YELLOW,black,right,c,fov_dis,4,?,8,4,YELLOW
-4,SHORT,RED,GREEN,black,left,ic,fov_dis,2,?,6,1,GREEN
-4,SIDE,GREEN,BLUE,black,left,ic,fov_dis,3,?,7,2,BLUE
-4,LABEL,BLUE,YELLOW,black,left,ic,fov_dis,4,?,8,3,YELLOW
-4,MAIN,YELLOW,RED,black,left,ic,fov_dis,1,?,5,4,RED
-4,SIDE,RED,BLUE,black,right,ic,fov_dis,3,?,7,1,BLUE
-4,LABEL,GREEN,YELLOW,black,right,ic,fov_dis,4,?,8,2,YELLOW
-4,MAIN,BLUE,RED,black,right,ic,fov_dis,1,?,5,3,RED
-4,SHORT,YELLOW,GREEN,black,right,ic,fov_dis,2,?,6,4,GREEN
-4,LABEL,RED,black,RED,left,c,para_unified,1,?,8,1,RED
-4,MAIN,GREEN,black,GREEN,left,c,para_unified,2,?,5,2,GREEN
-4,SHORT,BLUE,black,BLUE,left,c,para_unified,3,?,6,3,BLUE
-4,SIDE,YELLOW,black,YELLOW,left,c,para_unified,4,?,7,4,YELLOW
-4,MAIN,RED,black,RED,right,c,para_unified,1,?,5,1,RED
-4,SHORT,GREEN,black,GREEN,right,c,para_unified,2,?,6,2,GREEN
-4,SIDE,BLUE,black,BLUE,right,c,para_unified,3,?,7,3,BLUE
-4,LABEL,YELLOW,black,YELLOW,right,c,para_unified,4,?,8,4,YELLOW
-4,SHORT,RED,black,GREEN,left,ic,para_unified,2,?,6,1,GREEN
-4,SIDE,GREEN,black,BLUE,left,ic,para_unified,3,?,7,2,BLUE
-4,LABEL,BLUE,black,YELLOW,left,ic,para_unified,4,?,8,3,YELLOW
-4,MAIN,YELLOW,black,RED,left,ic,para_unified,1,?,5,4,RED
-4,SIDE,RED,black,BLUE,right,ic,para_unified,3,?,7,1,BLUE
-4,LABEL,GREEN,black,YELLOW,right,ic,para_unified,4,?,8,2,YELLOW
-4,MAIN,BLUE,black,RED,right,ic,para_unified,1,?,5,3,RED
-4,SHORT,YELLOW,black,GREEN,right,ic,para_unified,2,?,6,4,GREEN
-5,RED,MAIN,RED,black,Left,c,foveal_unified,1,?,1,5,RED
-5,GREEN,SHORT,GREEN,black,Left,c,foveal_unified,2,?,2,6,GREEN
-5,BLUE,SIDE,BLUE,black,Left,c,foveal_unified,3,?,3,7,BLUE
-5,YELLOW,LABEL,YELLOW,black,Left,c,foveal_unified,4,?,4,8,YELLOW
-5,RED,SHORT,RED,black,Right,c,foveal_unified,1,?,1,6,RED
-5,GREEN,SIDE,GREEN,black,Right,c,foveal_unified,2,?,2,7,GREEN
-5,BLUE,LABEL,BLUE,black,Right,c,foveal_unified,3,?,3,8,BLUE
-5,YELLOW,MAIN,YELLOW,black,Right,c,foveal_unified,4,?,4,5,YELLOW
-5,RED,SIDE,GREEN,black,Left,ic,foveal_unified,2,?,1,7,GREEN
-5,GREEN,LABEL,BLUE,black,Left,ic,foveal_unified,3,?,2,8,BLUE
-5,BLUE,MAIN,YELLOW,black,Left,ic,foveal_unified,4,?,3,5,YELLOW
-5,YELLOW,SHORT,RED,black,Left,ic,foveal_unified,1,?,4,6,RED
-5,RED,LABEL,BLUE,black,Right,ic,foveal_unified,3,?,1,8,BLUE
-5,GREEN,MAIN,YELLOW,black,Right,ic,foveal_unified,4,?,2,5,YELLOW
-5,BLUE,SHORT,RED,black,Right,ic,foveal_unified,1,?,3,6,RED
-5,YELLOW,SIDE,GREEN,black,Right,ic,foveal_unified,2,?,4,7,GREEN
-5,RED,MAIN,black,RED,Left,c,para_dis,1,?,1,5,RED
-5,GREEN,SHORT,black,GREEN,Left,c,para_dis,2,?,2,6,GREEN
-5,BLUE,SIDE,black,BLUE,Left,c,para_dis,3,?,3,7,BLUE
-5,YELLOW,LABEL,black,YELLOW,Left,c,para_dis,4,?,4,8,YELLOW
-5,RED,SHORT,black,RED,Right,c,para_dis,1,?,1,6,RED
-5,GREEN,SIDE,black,GREEN,Right,c,para_dis,2,?,2,7,GREEN
-5,BLUE,LABEL,black,BLUE,Right,c,para_dis,3,?,3,8,BLUE
-5,YELLOW,MAIN,black,YELLOW,Right,c,para_dis,4,?,4,5,YELLOW
-5,RED,SIDE,black,GREEN,left,ic,para_dis,2,?,1,7,GREEN
-5,GREEN,LABEL,black,BLUE,left,ic,para_dis,3,?,2,8,BLUE
-5,BLUE,MAIN,black,YELLOW,left,ic,para_dis,4,?,3,5,YELLOW
-5,YELLOW,SHORT,black,RED,left,ic,para_dis,1,?,4,6,RED
-5,RED,LABEL,black,BLUE,right,ic,para_dis,3,?,1,8,BLUE
-5,GREEN,MAIN,black,YELLOW,right,ic,para_dis,4,?,2,5,YELLOW
-5,BLUE,SHORT,black,RED,right,ic,para_dis,1,?,3,6,RED
-5,YELLOW,SIDE,black,GREEN,right,ic,para_dis,2,?,4,7,GREEN
-5,MAIN,RED,RED,black,left,c,fov_dis,1,?,5,1,RED
-5,SHORT,GREEN,GREEN,black,left,c,fov_dis,2,?,6,2,GREEN
-5,SIDE,BLUE,BLUE,black,left,c,fov_dis,3,?,7,3,BLUE
-5,LABEL,YELLOW,YELLOW,black,left,c,fov_dis,4,?,8,4,YELLOW
-5,SHORT,RED,RED,black,right,c,fov_dis,1,?,6,1,RED
-5,SIDE,GREEN,GREEN,black,right,c,fov_dis,2,?,7,2,GREEN
-5,LABEL,BLUE,BLUE,black,right,c,fov_dis,3,?,8,3,BLUE
-5,MAIN,YELLOW,YELLOW,black,right,c,fov_dis,4,?,5,4,YELLOW
-5,SIDE,RED,BLUE,black,left,ic,fov_dis,3,?,7,1,BLUE
-5,LABEL,GREEN,YELLOW,black,left,ic,fov_dis,4,?,8,2,YELLOW
-5,MAIN,BLUE,RED,black,left,ic,fov_dis,1,?,5,3,RED
-5,SHORT,YELLOW,GREEN,black,left,ic,fov_dis,2,?,6,4,GREEN
-5,LABEL,RED,YELLOW,black,right,ic,fov_dis,4,?,8,1,YELLOW
-5,MAIN,GREEN,RED,black,right,ic,fov_dis,1,?,5,2,RED
-5,SHORT,BLUE,GREEN,black,right,ic,fov_dis,2,?,6,3,GREEN
-5,SIDE,YELLOW,BLUE,black,right,ic,fov_dis,3,?,7,4,BLUE
-5,MAIN,RED,black,RED,left,c,para_unified,1,?,5,1,RED
-5,SHORT,GREEN,black,GREEN,left,c,para_unified,2,?,6,2,GREEN
-5,SIDE,BLUE,black,BLUE,left,c,para_unified,3,?,7,3,BLUE
-5,LABEL,YELLOW,black,YELLOW,left,c,para_unified,4,?,8,4,YELLOW
-5,SHORT,RED,black,RED,right,c,para_unified,1,?,6,1,RED
-5,SIDE,GREEN,black,GREEN,right,c,para_unified,2,?,7,2,GREEN
-5,LABEL,BLUE,black,BLUE,right,c,para_unified,3,?,8,3,BLUE
-5,MAIN,YELLOW,black,YELLOW,right,c,para_unified,4,?,5,4,YELLOW
-5,SIDE,RED,black,BLUE,left,ic,para_unified,3,?,7,1,BLUE
-5,LABEL,GREEN,black,YELLOW,left,ic,para_unified,4,?,8,2,YELLOW
-5,MAIN,BLUE,black,RED,left,ic,para_unified,1,?,5,3,RED
-5,SHORT,YELLOW,black,GREEN,left,ic,para_unified,2,?,6,4,GREEN
-5,LABEL,RED,black,YELLOW,right,ic,para_unified,4,?,8,1,YELLOW
-5,MAIN,GREEN,black,RED,right,ic,para_unified,1,?,5,2,RED
-5,SHORT,BLUE,black,GREEN,right,ic,para_unified,2,?,6,3,GREEN
-5,SIDE,YELLOW,black,BLUE,right,ic,para_unified,3,?,7,4,BLUE
-6,RED,SHORT,RED,black,Left,c,foveal_unified,1,?,1,6,RED
-6,GREEN,SIDE,GREEN,black,Left,c,foveal_unified,2,?,2,7,GREEN
-6,BLUE,LABEL,BLUE,black,Left,c,foveal_unified,3,?,3,8,BLUE
-6,YELLOW,MAIN,YELLOW,black,Left,c,foveal_unified,4,?,4,5,YELLOW
-6,RED,SIDE,RED,black,Right,c,foveal_unified,1,?,1,7,RED
-6,GREEN,LABEL,GREEN,black,Right,c,foveal_unified,2,?,2,8,GREEN
-6,BLUE,MAIN,BLUE,black,Right,c,foveal_unified,3,?,3,5,BLUE
-6,YELLOW,SHORT,YELLOW,black,Right,c,foveal_unified,4,?,4,6,YELLOW
-6,RED,LABEL,YELLOW,black,Left,ic,foveal_unified,4,?,1,8,YELLOW
-6,GREEN,MAIN,RED,black,Left,ic,foveal_unified,1,?,2,5,RED
-6,BLUE,SHORT,GREEN,black,Left,ic,foveal_unified,2,?,3,6,GREEN
-6,YELLOW,SIDE,BLUE,black,Left,ic,foveal_unified,3,?,4,7,BLUE
-6,RED,MAIN,GREEN,black,Right,ic,foveal_unified,2,?,1,5,GREEN
-6,GREEN,SHORT,BLUE,black,Right,ic,foveal_unified,3,?,2,6,BLUE
-6,BLUE,SIDE,YELLOW,black,Right,ic,foveal_unified,4,?,3,7,YELLOW
-6,YELLOW,LABEL,RED,black,Right,ic,foveal_unified,1,?,4,8,RED
-6,RED,SHORT,black,RED,Left,c,para_dis,1,?,1,6,RED
-6,GREEN,SIDE,black,GREEN,Left,c,para_dis,2,?,2,7,GREEN
-6,BLUE,LABEL,black,BLUE,Left,c,para_dis,3,?,3,8,BLUE
-6,YELLOW,MAIN,black,YELLOW,Left,c,para_dis,4,?,4,5,YELLOW
-6,RED,SIDE,black,RED,Right,c,para_dis,1,?,1,7,RED
-6,GREEN,LABEL,black,GREEN,Right,c,para_dis,2,?,2,8,GREEN
-6,BLUE,MAIN,black,BLUE,Right,c,para_dis,3,?,3,5,BLUE
-6,YELLOW,SHORT,black,YELLOW,Right,c,para_dis,4,?,4,6,YELLOW
-6,RED,LABEL,black,YELLOW,left,ic,para_dis,4,?,1,8,YELLOW
-6,GREEN,MAIN,black,RED,left,ic,para_dis,1,?,2,5,RED
-6,BLUE,SHORT,black,GREEN,left,ic,para_dis,2,?,3,6,GREEN
-6,YELLOW,SIDE,black,BLUE,left,ic,para_dis,3,?,4,7,BLUE
-6,RED,MAIN,black,GREEN,right,ic,para_dis,2,?,1,5,GREEN
-6,GREEN,SHORT,black,BLUE,right,ic,para_dis,3,?,2,6,BLUE
-6,BLUE,SIDE,black,YELLOW,right,ic,para_dis,4,?,3,7,YELLOW
-6,YELLOW,LABEL,black,RED,right,ic,para_dis,1,?,4,8,RED
-6,SHORT,RED,RED,black,left,c,fov_dis,1,?,6,1,RED
-6,SIDE,GREEN,GREEN,black,left,c,fov_dis,2,?,7,2,GREEN
-6,LABEL,BLUE,BLUE,black,left,c,fov_dis,3,?,8,3,BLUE
-6,MAIN,YELLOW,YELLOW,black,left,c,fov_dis,4,?,5,4,YELLOW
-6,SIDE,RED,RED,black,right,c,fov_dis,1,?,7,1,RED
-6,LABEL,GREEN,GREEN,black,right,c,fov_dis,2,?,8,2,GREEN
-6,MAIN,BLUE,BLUE,black,right,c,fov_dis,3,?,5,3,BLUE
-6,SHORT,YELLOW,YELLOW,black,right,c,fov_dis,4,?,6,4,YELLOW
-6,LABEL,RED,GREEN,black,left,ic,fov_dis,2,?,8,1,GREEN
-6,MAIN,GREEN,BLUE,black,left,ic,fov_dis,3,?,5,2,BLUE
-6,SHORT,BLUE,YELLOW,black,left,ic,fov_dis,4,?,6,3,YELLOW
-6,SIDE,YELLOW,RED,black,left,ic,fov_dis,1,?,7,4,RED
-6,MAIN,RED,BLUE,black,right,ic,fov_dis,3,?,5,1,BLUE
-6,SHORT,GREEN,YELLOW,black,right,ic,fov_dis,4,?,6,2,YELLOW
-6,SIDE,BLUE,RED,black,right,ic,fov_dis,1,?,7,3,RED
-6,LABEL,YELLOW,GREEN,black,right,ic,fov_dis,2,?,8,4,GREEN
-6,SHORT,RED,black,RED,left,c,para_unified,1,?,6,1,RED
-6,SIDE,GREEN,black,GREEN,left,c,para_unified,2,?,7,2,GREEN
-6,LABEL,BLUE,black,BLUE,left,c,para_unified,3,?,8,3,BLUE
-6,MAIN,YELLOW,black,YELLOW,left,c,para_unified,4,?,5,4,YELLOW
-6,SIDE,RED,black,RED,right,c,para_unified,1,?,7,1,RED
-6,LABEL,GREEN,black,GREEN,right,c,para_unified,2,?,8,2,GREEN
-6,MAIN,BLUE,black,BLUE,right,c,para_unified,3,?,5,3,BLUE
-6,SHORT,YELLOW,black,YELLOW,right,c,para_unified,4,?,6,4,YELLOW
-6,LABEL,RED,black,GREEN,left,ic,para_unified,2,?,8,1,GREEN
-6,MAIN,GREEN,black,BLUE,left,ic,para_unified,3,?,5,2,BLUE
-6,SHORT,BLUE,black,YELLOW,left,ic,para_unified,4,?,6,3,YELLOW
-6,SIDE,YELLOW,black,RED,left,ic,para_unified,1,?,7,4,RED
-6,MAIN,RED,black,BLUE,right,ic,para_unified,3,?,5,1,BLUE
-6,SHORT,GREEN,black,YELLOW,right,ic,para_unified,4,?,6,2,YELLOW
-6,SIDE,BLUE,black,RED,right,ic,para_unified,1,?,7,3,RED
-6,LABEL,YELLOW,black,GREEN,right,ic,para_unified,2,?,8,4,GREEN
-7,RED,SIDE,RED,black,Left,c,foveal_unified,1,?,1,7,RED
-7,GREEN,LABEL,GREEN,black,Left,c,foveal_unified,2,?,2,8,GREEN
-7,BLUE,MAIN,BLUE,black,Left,c,foveal_unified,3,?,3,5,BLUE
-7,YELLOW,SHORT,YELLOW,black,Left,c,foveal_unified,4,?,4,6,YELLOW
-7,RED,LABEL,RED,black,Right,c,foveal_unified,1,?,1,8,RED
-7,GREEN,MAIN,GREEN,black,Right,c,foveal_unified,2,?,2,5,GREEN
-7,BLUE,SHORT,BLUE,black,Right,c,foveal_unified,3,?,3,6,BLUE
-7,YELLOW,SIDE,YELLOW,black,Right,c,foveal_unified,4,?,4,7,YELLOW
-7,RED,MAIN,GREEN,black,Left,ic,foveal_unified,2,?,1,5,GREEN
-7,GREEN,SHORT,BLUE,black,Left,ic,foveal_unified,3,?,2,6,BLUE
-7,BLUE,SIDE,YELLOW,black,Left,ic,foveal_unified,4,?,3,7,YELLOW
-7,YELLOW,LABEL,RED,black,Left,ic,foveal_unified,1,?,4,8,RED
-7,RED,SHORT,BLUE,black,Right,ic,foveal_unified,3,?,1,6,BLUE
-7,GREEN,SIDE,YELLOW,black,Right,ic,foveal_unified,4,?,2,7,YELLOW
-7,BLUE,LABEL,RED,black,Right,ic,foveal_unified,1,?,3,8,RED
-7,YELLOW,MAIN,GREEN,black,Right,ic,foveal_unified,2,?,4,5,GREEN
-7,RED,SIDE,black,RED,Left,c,para_dis,1,?,1,7,RED
-7,GREEN,LABEL,black,GREEN,Left,c,para_dis,2,?,2,8,GREEN
-7,BLUE,MAIN,black,BLUE,Left,c,para_dis,3,?,3,5,BLUE
-7,YELLOW,SHORT,black,YELLOW,Left,c,para_dis,4,?,4,6,YELLOW
-7,RED,LABEL,black,RED,Right,c,para_dis,1,?,1,8,RED
-7,GREEN,MAIN,black,GREEN,Right,c,para_dis,2,?,2,5,GREEN
-7,BLUE,SHORT,black,BLUE,Right,c,para_dis,3,?,3,6,BLUE
-7,YELLOW,SIDE,black,YELLOW,Right,c,para_dis,4,?,4,7,YELLOW
-7,RED,MAIN,black,GREEN,left,ic,para_dis,2,?,1,5,GREEN
-7,GREEN,SHORT,black,BLUE,left,ic,para_dis,3,?,2,6,BLUE
-7,BLUE,SIDE,black,YELLOW,left,ic,para_dis,4,?,3,7,YELLOW
-7,YELLOW,LABEL,black,RED,left,ic,para_dis,1,?,4,8,RED
-7,RED,SHORT,black,BLUE,right,ic,para_dis,3,?,1,6,BLUE
-7,GREEN,SIDE,black,YELLOW,right,ic,para_dis,4,?,2,7,YELLOW
-7,BLUE,LABEL,black,RED,right,ic,para_dis,1,?,3,8,RED
-7,YELLOW,MAIN,black,GREEN,right,ic,para_dis,2,?,4,5,GREEN
-7,SIDE,RED,RED,black,left,c,fov_dis,1,?,7,1,RED
-7,LABEL,GREEN,GREEN,black,left,c,fov_dis,2,?,8,2,GREEN
-7,MAIN,BLUE,BLUE,black,left,c,fov_dis,3,?,5,3,BLUE
-7,SHORT,YELLOW,YELLOW,black,left,c,fov_dis,4,?,6,4,YELLOW
-7,LABEL,RED,RED,black,right,c,fov_dis,1,?,8,1,RED
-7,MAIN,GREEN,GREEN,black,right,c,fov_dis,2,?,5,2,GREEN
-7,SHORT,BLUE,BLUE,black,right,c,fov_dis,3,?,6,3,BLUE
-7,SIDE,YELLOW,YELLOW,black,right,c,fov_dis,4,?,7,4,YELLOW
-7,MAIN,RED,BLUE,black,left,ic,fov_dis,3,?,5,1,BLUE
-7,SHORT,GREEN,YELLOW,black,left,ic,fov_dis,4,?,6,2,YELLOW
-7,SIDE,BLUE,RED,black,left,ic,fov_dis,1,?,7,3,RED
-7,LABEL,YELLOW,GREEN,black,left,ic,fov_dis,2,?,8,4,GREEN
-7,SHORT,RED,YELLOW,black,right,ic,fov_dis,4,?,6,1,YELLOW
-7,SIDE,GREEN,RED,black,right,ic,fov_dis,1,?,7,2,RED
-7,LABEL,BLUE,GREEN,black,right,ic,fov_dis,2,?,8,3,GREEN
-7,MAIN,YELLOW,BLUE,black,right,ic,fov_dis,3,?,5,4,BLUE
-7,SIDE,RED,black,RED,left,c,para_unified,1,?,7,1,RED
-7,LABEL,GREEN,black,GREEN,left,c,para_unified,2,?,8,2,GREEN
-7,MAIN,BLUE,black,BLUE,left,c,para_unified,3,?,5,3,BLUE
-7,SHORT,YELLOW,black,YELLOW,left,c,para_unified,4,?,6,4,YELLOW
-7,LABEL,RED,black,RED,right,c,para_unified,1,?,8,1,RED
-7,MAIN,GREEN,black,GREEN,right,c,para_unified,2,?,5,2,GREEN
-7,SHORT,BLUE,black,BLUE,right,c,para_unified,3,?,6,3,BLUE
-7,SIDE,YELLOW,black,YELLOW,right,c,para_unified,4,?,7,4,YELLOW
-7,MAIN,RED,black,BLUE,left,ic,para_unified,3,?,5,1,BLUE
-7,SHORT,GREEN,black,YELLOW,left,ic,para_unified,4,?,6,2,YELLOW
-7,SIDE,BLUE,black,RED,left,ic,para_unified,1,?,7,3,RED
-7,LABEL,YELLOW,black,GREEN,left,ic,para_unified,2,?,8,4,GREEN
-7,SHORT,RED,black,YELLOW,right,ic,para_unified,4,?,6,1,YELLOW
-7,SIDE,GREEN,black,RED,right,ic,para_unified,1,?,7,2,RED
-7,LABEL,BLUE,black,GREEN,right,ic,para_unified,2,?,8,3,GREEN
-7,MAIN,YELLOW,black,BLUE,right,ic,para_unified,3,?,5,4,BLUE
-8,RED,LABEL,RED,black,Left,c,foveal_unified,1,?,1,8,RED
-8,GREEN,MAIN,GREEN,black,Left,c,foveal_unified,2,?,2,5,GREEN
-8,BLUE,SHORT,BLUE,black,Left,c,foveal_unified,3,?,3,6,BLUE
-8,YELLOW,SIDE,YELLOW,black,Left,c,foveal_unified,4,?,4,7,YELLOW
-8,RED,MAIN,RED,black,Right,c,foveal_unified,1,?,1,5,RED
-8,GREEN,SHORT,GREEN,black,Right,c,foveal_unified,2,?,2,6,GREEN
-8,BLUE,SIDE,BLUE,black,Right,c,foveal_unified,3,?,3,7,BLUE
-8,YELLOW,LABEL,YELLOW,black,Right,c,foveal_unified,4,?,4,8,YELLOW
-8,RED,SHORT,YELLOW,black,Left,ic,foveal_unified,4,?,1,6,YELLOW
-8,GREEN,SIDE,RED,black,Left,ic,foveal_unified,1,?,2,7,RED
-8,BLUE,LABEL,GREEN,black,Left,ic,foveal_unified,2,?,3,8,GREEN
-8,YELLOW,MAIN,BLUE,black,Left,ic,foveal_unified,3,?,4,5,BLUE
-8,RED,SIDE,GREEN,black,Right,ic,foveal_unified,2,?,1,7,GREEN
-8,GREEN,LABEL,BLUE,black,Right,ic,foveal_unified,3,?,2,8,BLUE
-8,BLUE,MAIN,YELLOW,black,Right,ic,foveal_unified,4,?,3,5,YELLOW
-8,YELLOW,SHORT,RED,black,Right,ic,foveal_unified,1,?,4,6,RED
-8,RED,LABEL,black,RED,Left,c,para_dis,1,?,1,8,RED
-8,GREEN,MAIN,black,GREEN,Left,c,para_dis,2,?,2,5,GREEN
-8,BLUE,SHORT,black,BLUE,Left,c,para_dis,3,?,3,6,BLUE
-8,YELLOW,SIDE,black,YELLOW,Left,c,para_dis,4,?,4,7,YELLOW
-8,RED,MAIN,black,RED,Right,c,para_dis,1,?,1,5,RED
-8,GREEN,SHORT,black,GREEN,Right,c,para_dis,2,?,2,6,GREEN
-8,BLUE,SIDE,black,BLUE,Right,c,para_dis,3,?,3,7,BLUE
-8,YELLOW,LABEL,black,YELLOW,Right,c,para_dis,4,?,4,8,YELLOW
-8,RED,SHORT,black,YELLOW,left,ic,para_dis,4,?,1,6,YELLOW
-8,GREEN,SIDE,black,RED,left,ic,para_dis,1,?,2,7,RED
-8,BLUE,LABEL,black,GREEN,left,ic,para_dis,2,?,3,8,GREEN
-8,YELLOW,MAIN,black,BLUE,left,ic,para_dis,3,?,4,5,BLUE
-8,RED,SIDE,black,GREEN,right,ic,para_dis,2,?,1,7,GREEN
-8,GREEN,LABEL,black,BLUE,right,ic,para_dis,3,?,2,8,BLUE
-8,BLUE,MAIN,black,YELLOW,right,ic,para_dis,4,?,3,5,YELLOW
-8,YELLOW,SHORT,black,RED,right,ic,para_dis,1,?,4,6,RED
-8,LABEL,RED,RED,black,left,c,fov_dis,1,?,8,1,RED
-8,MAIN,GREEN,GREEN,black,left,c,fov_dis,2,?,5,2,GREEN
-8,SHORT,BLUE,BLUE,black,left,c,fov_dis,3,?,6,3,BLUE
-8,SIDE,YELLOW,YELLOW,black,left,c,fov_dis,4,?,7,4,YELLOW
-8,MAIN,RED,RED,black,right,c,fov_dis,1,?,5,1,RED
-8,SHORT,GREEN,GREEN,black,right,c,fov_dis,2,?,6,2,GREEN
-8,SIDE,BLUE,BLUE,black,right,c,fov_dis,3,?,7,3,BLUE
-8,LABEL,YELLOW,YELLOW,black,right,c,fov_dis,4,?,8,4,YELLOW
-8,SHORT,RED,GREEN,black,left,ic,fov_dis,2,?,6,1,GREEN
-8,SIDE,GREEN,BLUE,black,left,ic,fov_dis,3,?,7,2,BLUE
-8,LABEL,BLUE,YELLOW,black,left,ic,fov_dis,4,?,8,3,YELLOW
-8,MAIN,YELLOW,RED,black,left,ic,fov_dis,1,?,5,4,RED
-8,SIDE,RED,BLUE,black,right,ic,fov_dis,3,?,7,1,BLUE
-8,LABEL,GREEN,YELLOW,black,right,ic,fov_dis,4,?,8,2,YELLOW
-8,MAIN,BLUE,RED,black,right,ic,fov_dis,1,?,5,3,RED
-8,SHORT,YELLOW,GREEN,black,right,ic,fov_dis,2,?,6,4,GREEN
-8,LABEL,RED,black,RED,left,c,para_unified,1,?,8,1,RED
-8,MAIN,GREEN,black,GREEN,left,c,para_unified,2,?,5,2,GREEN
-8,SHORT,BLUE,black,BLUE,left,c,para_unified,3,?,6,3,BLUE
-8,SIDE,YELLOW,black,YELLOW,left,c,para_unified,4,?,7,4,YELLOW
-8,MAIN,RED,black,RED,right,c,para_unified,1,?,5,1,RED
-8,SHORT,GREEN,black,GREEN,right,c,para_unified,2,?,6,2,GREEN
-8,SIDE,BLUE,black,BLUE,right,c,para_unified,3,?,7,3,BLUE
-8,LABEL,YELLOW,black,YELLOW,right,c,para_unified,4,?,8,4,YELLOW
-8,SHORT,RED,black,GREEN,left,ic,para_unified,2,?,6,1,GREEN
-8,SIDE,GREEN,black,BLUE,left,ic,para_unified,3,?,7,2,BLUE
-8,LABEL,BLUE,black,YELLOW,left,ic,para_unified,4,?,8,3,YELLOW
-8,MAIN,YELLOW,black,RED,left,ic,para_unified,1,?,5,4,RED
-8,SIDE,RED,black,BLUE,right,ic,para_unified,3,?,7,1,BLUE
-8,LABEL,GREEN,black,YELLOW,right,ic,para_unified,4,?,8,2,YELLOW
-8,MAIN,BLUE,black,RED,right,ic,para_unified,1,?,5,3,RED
-8,SHORT,YELLOW,black,GREEN,right,ic,para_unified,2,?,6,4,GREEN
-9,RED,MAIN,RED,black,Left,c,foveal_unified,1,?,1,5,RED
-9,GREEN,SHORT,GREEN,black,Left,c,foveal_unified,2,?,2,6,GREEN
-9,BLUE,SIDE,BLUE,black,Left,c,foveal_unified,3,?,3,7,BLUE
-9,YELLOW,LABEL,YELLOW,black,Left,c,foveal_unified,4,?,4,8,YELLOW
-9,RED,SHORT,RED,black,Right,c,foveal_unified,1,?,1,6,RED
-9,GREEN,SIDE,GREEN,black,Right,c,foveal_unified,2,?,2,7,GREEN
-9,BLUE,LABEL,BLUE,black,Right,c,foveal_unified,3,?,3,8,BLUE
-9,YELLOW,MAIN,YELLOW,black,Right,c,foveal_unified,4,?,4,5,YELLOW
-9,RED,SIDE,GREEN,black,Left,ic,foveal_unified,2,?,1,7,GREEN
-9,GREEN,LABEL,BLUE,black,Left,ic,foveal_unified,3,?,2,8,BLUE
-9,BLUE,MAIN,YELLOW,black,Left,ic,foveal_unified,4,?,3,5,YELLOW
-9,YELLOW,SHORT,RED,black,Left,ic,foveal_unified,1,?,4,6,RED
-9,RED,LABEL,BLUE,black,Right,ic,foveal_unified,3,?,1,8,BLUE
-9,GREEN,MAIN,YELLOW,black,Right,ic,foveal_unified,4,?,2,5,YELLOW
-9,BLUE,SHORT,RED,black,Right,ic,foveal_unified,1,?,3,6,RED
-9,YELLOW,SIDE,GREEN,black,Right,ic,foveal_unified,2,?,4,7,GREEN
-9,RED,MAIN,black,RED,Left,c,para_dis,1,?,1,5,RED
-9,GREEN,SHORT,black,GREEN,Left,c,para_dis,2,?,2,6,GREEN
-9,BLUE,SIDE,black,BLUE,Left,c,para_dis,3,?,3,7,BLUE
-9,YELLOW,LABEL,black,YELLOW,Left,c,para_dis,4,?,4,8,YELLOW
-9,RED,SHORT,black,RED,Right,c,para_dis,1,?,1,6,RED
-9,GREEN,SIDE,black,GREEN,Right,c,para_dis,2,?,2,7,GREEN
-9,BLUE,LABEL,black,BLUE,Right,c,para_dis,3,?,3,8,BLUE
-9,YELLOW,MAIN,black,YELLOW,Right,c,para_dis,4,?,4,5,YELLOW
-9,RED,SIDE,black,GREEN,left,ic,para_dis,2,?,1,7,GREEN
-9,GREEN,LABEL,black,BLUE,left,ic,para_dis,3,?,2,8,BLUE
-9,BLUE,MAIN,black,YELLOW,left,ic,para_dis,4,?,3,5,YELLOW
-9,YELLOW,SHORT,black,RED,left,ic,para_dis,1,?,4,6,RED
-9,RED,LABEL,black,BLUE,right,ic,para_dis,3,?,1,8,BLUE
-9,GREEN,MAIN,black,YELLOW,right,ic,para_dis,4,?,2,5,YELLOW
-9,BLUE,SHORT,black,RED,right,ic,para_dis,1,?,3,6,RED
-9,YELLOW,SIDE,black,GREEN,right,ic,para_dis,2,?,4,7,GREEN
-9,MAIN,RED,RED,black,left,c,fov_dis,1,?,5,1,RED
-9,SHORT,GREEN,GREEN,black,left,c,fov_dis,2,?,6,2,GREEN
-9,SIDE,BLUE,BLUE,black,left,c,fov_dis,3,?,7,3,BLUE
-9,LABEL,YELLOW,YELLOW,black,left,c,fov_dis,4,?,8,4,YELLOW
-9,SHORT,RED,RED,black,right,c,fov_dis,1,?,6,1,RED
-9,SIDE,GREEN,GREEN,black,right,c,fov_dis,2,?,7,2,GREEN
-9,LABEL,BLUE,BLUE,black,right,c,fov_dis,3,?,8,3,BLUE
-9,MAIN,YELLOW,YELLOW,black,right,c,fov_dis,4,?,5,4,YELLOW
-9,SIDE,RED,BLUE,black,left,ic,fov_dis,3,?,7,1,BLUE
-9,LABEL,GREEN,YELLOW,black,left,ic,fov_dis,4,?,8,2,YELLOW
-9,MAIN,BLUE,RED,black,left,ic,fov_dis,1,?,5,3,RED
-9,SHORT,YELLOW,GREEN,black,left,ic,fov_dis,2,?,6,4,GREEN
-9,LABEL,RED,YELLOW,black,right,ic,fov_dis,4,?,8,1,YELLOW
-9,MAIN,GREEN,RED,black,right,ic,fov_dis,1,?,5,2,RED
-9,SHORT,BLUE,GREEN,black,right,ic,fov_dis,2,?,6,3,GREEN
-9,SIDE,YELLOW,BLUE,black,right,ic,fov_dis,3,?,7,4,BLUE
-9,MAIN,RED,black,RED,left,c,para_unified,1,?,5,1,RED
-9,SHORT,GREEN,black,GREEN,left,c,para_unified,2,?,6,2,GREEN
-9,SIDE,BLUE,black,BLUE,left,c,para_unified,3,?,7,3,BLUE
-9,LABEL,YELLOW,black,YELLOW,left,c,para_unified,4,?,8,4,YELLOW
-9,SHORT,RED,black,RED,right,c,para_unified,1,?,6,1,RED
-9,SIDE,GREEN,black,GREEN,right,c,para_unified,2,?,7,2,GREEN
-9,LABEL,BLUE,black,BLUE,right,c,para_unified,3,?,8,3,BLUE
-9,MAIN,YELLOW,black,YELLOW,right,c,para_unified,4,?,5,4,YELLOW
-9,SIDE,RED,black,BLUE,left,ic,para_unified,3,?,7,1,BLUE
-9,LABEL,GREEN,black,YELLOW,left,ic,para_unified,4,?,8,2,YELLOW
-9,MAIN,BLUE,black,RED,left,ic,para_unified,1,?,5,3,RED
-9,SHORT,YELLOW,black,GREEN,left,ic,para_unified,2,?,6,4,GREEN
-9,LABEL,RED,black,YELLOW,right,ic,para_unified,4,?,8,1,YELLOW
-9,MAIN,GREEN,black,RED,right,ic,para_unified,1,?,5,2,RED
-9,SHORT,BLUE,black,GREEN,right,ic,para_unified,2,?,6,3,GREEN
-9,SIDE,YELLOW,black,BLUE,right,ic,para_unified,3,?,7,4,BLUE
-10,RED,SHORT,RED,black,Left,c,foveal_unified,1,?,1,6,RED
-10,GREEN,SIDE,GREEN,black,Left,c,foveal_unified,2,?,2,7,GREEN
-10,BLUE,LABEL,BLUE,black,Left,c,foveal_unified,3,?,3,8,BLUE
-10,YELLOW,MAIN,YELLOW,black,Left,c,foveal_unified,4,?,4,5,YELLOW
-10,RED,SIDE,RED,black,Right,c,foveal_unified,1,?,1,7,RED
-10,GREEN,LABEL,GREEN,black,Right,c,foveal_unified,2,?,2,8,GREEN
-10,BLUE,MAIN,BLUE,black,Right,c,foveal_unified,3,?,3,5,BLUE
-10,YELLOW,SHORT,YELLOW,black,Right,c,foveal_unified,4,?,4,6,YELLOW
-10,RED,LABEL,YELLOW,black,Left,ic,foveal_unified,4,?,1,8,YELLOW
-10,GREEN,MAIN,RED,black,Left,ic,foveal_unified,1,?,2,5,RED
-10,BLUE,SHORT,GREEN,black,Left,ic,foveal_unified,2,?,3,6,GREEN
-10,YELLOW,SIDE,BLUE,black,Left,ic,foveal_unified,3,?,4,7,BLUE
-10,RED,MAIN,GREEN,black,Right,ic,foveal_unified,2,?,1,5,GREEN
-10,GREEN,SHORT,BLUE,black,Right,ic,foveal_unified,3,?,2,6,BLUE
-10,BLUE,SIDE,YELLOW,black,Right,ic,foveal_unified,4,?,3,7,YELLOW
-10,YELLOW,LABEL,RED,black,Right,ic,foveal_unified,1,?,4,8,RED
-10,RED,SHORT,black,RED,Left,c,para_dis,1,?,1,6,RED
-10,GREEN,SIDE,black,GREEN,Left,c,para_dis,2,?,2,7,GREEN
-10,BLUE,LABEL,black,BLUE,Left,c,para_dis,3,?,3,8,BLUE
-10,YELLOW,MAIN,black,YELLOW,Left,c,para_dis,4,?,4,5,YELLOW
-10,RED,SIDE,black,RED,Right,c,para_dis,1,?,1,7,RED
-10,GREEN,LABEL,black,GREEN,Right,c,para_dis,2,?,2,8,GREEN
-10,BLUE,MAIN,black,BLUE,Right,c,para_dis,3,?,3,5,BLUE
-10,YELLOW,SHORT,black,YELLOW,Right,c,para_dis,4,?,4,6,YELLOW
-10,RED,LABEL,black,YELLOW,left,ic,para_dis,4,?,1,8,YELLOW
-10,GREEN,MAIN,black,RED,left,ic,para_dis,1,?,2,5,RED
-10,BLUE,SHORT,black,GREEN,left,ic,para_dis,2,?,3,6,GREEN
-10,YELLOW,SIDE,black,BLUE,left,ic,para_dis,3,?,4,7,BLUE
-10,RED,MAIN,black,GREEN,right,ic,para_dis,2,?,1,5,GREEN
-10,GREEN,SHORT,black,BLUE,right,ic,para_dis,3,?,2,6,BLUE
-10,BLUE,SIDE,black,YELLOW,right,ic,para_dis,4,?,3,7,YELLOW
-10,YELLOW,LABEL,black,RED,right,ic,para_dis,1,?,4,8,RED
-10,SHORT,RED,RED,black,left,c,fov_dis,1,?,6,1,RED
-10,SIDE,GREEN,GREEN,black,left,c,fov_dis,2,?,7,2,GREEN
-10,LABEL,BLUE,BLUE,black,left,c,fov_dis,3,?,8,3,BLUE
-10,MAIN,YELLOW,YELLOW,black,left,c,fov_dis,4,?,5,4,YELLOW
-10,SIDE,RED,RED,black,right,c,fov_dis,1,?,7,1,RED
-10,LABEL,GREEN,GREEN,black,right,c,fov_dis,2,?,8,2,GREEN
-10,MAIN,BLUE,BLUE,black,right,c,fov_dis,3,?,5,3,BLUE
-10,SHORT,YELLOW,YELLOW,black,right,c,fov_dis,4,?,6,4,YELLOW
-10,LABEL,RED,GREEN,black,left,ic,fov_dis,2,?,8,1,GREEN
-10,MAIN,GREEN,BLUE,black,left,ic,fov_dis,3,?,5,2,BLUE
-10,SHORT,BLUE,YELLOW,black,left,ic,fov_dis,4,?,6,3,YELLOW
-10,SIDE,YELLOW,RED,black,left,ic,fov_dis,1,?,7,4,RED
-10,MAIN,RED,BLUE,black,right,ic,fov_dis,3,?,5,1,BLUE
-10,SHORT,GREEN,YELLOW,black,right,ic,fov_dis,4,?,6,2,YELLOW
-10,SIDE,BLUE,RED,black,right,ic,fov_dis,1,?,7,3,RED
-10,LABEL,YELLOW,GREEN,black,right,ic,fov_dis,2,?,8,4,GREEN
-10,SHORT,RED,black,RED,left,c,para_unified,1,?,6,1,RED
-10,SIDE,GREEN,black,GREEN,left,c,para_unified,2,?,7,2,GREEN
-10,LABEL,BLUE,black,BLUE,left,c,para_unified,3,?,8,3,BLUE
-10,MAIN,YELLOW,black,YELLOW,left,c,para_unified,4,?,5,4,YELLOW
-10,SIDE,RED,black,RED,right,c,para_unified,1,?,7,1,RED
-10,LABEL,GREEN,black,GREEN,right,c,para_unified,2,?,8,2,GREEN
-10,MAIN,BLUE,black,BLUE,right,c,para_unified,3,?,5,3,BLUE
-10,SHORT,YELLOW,black,YELLOW,right,c,para_unified,4,?,6,4,YELLOW
-10,LABEL,RED,black,GREEN,left,ic,para_unified,2,?,8,1,GREEN
-10,MAIN,GREEN,black,BLUE,left,ic,para_unified,3,?,5,2,BLUE
-10,SHORT,BLUE,black,YELLOW,left,ic,para_unified,4,?,6,3,YELLOW
-10,SIDE,YELLOW,black,RED,left,ic,para_unified,1,?,7,4,RED
-10,MAIN,RED,black,BLUE,right,ic,para_unified,3,?,5,1,BLUE
-10,SHORT,GREEN,black,YELLOW,right,ic,para_unified,4,?,6,2,YELLOW
-10,SIDE,BLUE,black,RED,right,ic,para_unified,1,?,7,3,RED
-10,LABEL,YELLOW,black,GREEN,right,ic,para_unified,2,?,8,4,GREEN
-11,RED,SIDE,RED,black,Left,c,foveal_unified,1,?,1,7,RED
-11,GREEN,LABEL,GREEN,black,Left,c,foveal_unified,2,?,2,8,GREEN
-11,BLUE,MAIN,BLUE,black,Left,c,foveal_unified,3,?,3,5,BLUE
-11,YELLOW,SHORT,YELLOW,black,Left,c,foveal_unified,4,?,4,6,YELLOW
-11,RED,LABEL,RED,black,Right,c,foveal_unified,1,?,1,8,RED
-11,GREEN,MAIN,GREEN,black,Right,c,foveal_unified,2,?,2,5,GREEN
-11,BLUE,SHORT,BLUE,black,Right,c,foveal_unified,3,?,3,6,BLUE
-11,YELLOW,SIDE,YELLOW,black,Right,c,foveal_unified,4,?,4,7,YELLOW
-11,RED,MAIN,GREEN,black,Left,ic,foveal_unified,2,?,1,5,GREEN
-11,GREEN,SHORT,BLUE,black,Left,ic,foveal_unified,3,?,2,6,BLUE
-11,BLUE,SIDE,YELLOW,black,Left,ic,foveal_unified,4,?,3,7,YELLOW
-11,YELLOW,LABEL,RED,black,Left,ic,foveal_unified,1,?,4,8,RED
-11,RED,SHORT,BLUE,black,Right,ic,foveal_unified,3,?,1,6,BLUE
-11,GREEN,SIDE,YELLOW,black,Right,ic,foveal_unified,4,?,2,7,YELLOW
-11,BLUE,LABEL,RED,black,Right,ic,foveal_unified,1,?,3,8,RED
-11,YELLOW,MAIN,GREEN,black,Right,ic,foveal_unified,2,?,4,5,GREEN
-11,RED,SIDE,black,RED,Left,c,para_dis,1,?,1,7,RED
-11,GREEN,LABEL,black,GREEN,Left,c,para_dis,2,?,2,8,GREEN
-11,BLUE,MAIN,black,BLUE,Left,c,para_dis,3,?,3,5,BLUE
-11,YELLOW,SHORT,black,YELLOW,Left,c,para_dis,4,?,4,6,YELLOW
-11,RED,LABEL,black,RED,Right,c,para_dis,1,?,1,8,RED
-11,GREEN,MAIN,black,GREEN,Right,c,para_dis,2,?,2,5,GREEN
-11,BLUE,SHORT,black,BLUE,Right,c,para_dis,3,?,3,6,BLUE
-11,YELLOW,SIDE,black,YELLOW,Right,c,para_dis,4,?,4,7,YELLOW
-11,RED,MAIN,black,GREEN,left,ic,para_dis,2,?,1,5,GREEN
-11,GREEN,SHORT,black,BLUE,left,ic,para_dis,3,?,2,6,BLUE
-11,BLUE,SIDE,black,YELLOW,left,ic,para_dis,4,?,3,7,YELLOW
-11,YELLOW,LABEL,black,RED,left,ic,para_dis,1,?,4,8,RED
-11,RED,SHORT,black,BLUE,right,ic,para_dis,3,?,1,6,BLUE
-11,GREEN,SIDE,black,YELLOW,right,ic,para_dis,4,?,2,7,YELLOW
-11,BLUE,LABEL,black,RED,right,ic,para_dis,1,?,3,8,RED
-11,YELLOW,MAIN,black,GREEN,right,ic,para_dis,2,?,4,5,GREEN
-11,SIDE,RED,RED,black,left,c,fov_dis,1,?,7,1,RED
-11,LABEL,GREEN,GREEN,black,left,c,fov_dis,2,?,8,2,GREEN
-11,MAIN,BLUE,BLUE,black,left,c,fov_dis,3,?,5,3,BLUE
-11,SHORT,YELLOW,YELLOW,black,left,c,fov_dis,4,?,6,4,YELLOW
-11,LABEL,RED,RED,black,right,c,fov_dis,1,?,8,1,RED
-11,MAIN,GREEN,GREEN,black,right,c,fov_dis,2,?,5,2,GREEN
-11,SHORT,BLUE,BLUE,black,right,c,fov_dis,3,?,6,3,BLUE
-11,SIDE,YELLOW,YELLOW,black,right,c,fov_dis,4,?,7,4,YELLOW
-11,MAIN,RED,BLUE,black,left,ic,fov_dis,3,?,5,1,BLUE
-11,SHORT,GREEN,YELLOW,black,left,ic,fov_dis,4,?,6,2,YELLOW
-11,SIDE,BLUE,RED,black,left,ic,fov_dis,1,?,7,3,RED
-11,LABEL,YELLOW,GREEN,black,left,ic,fov_dis,2,?,8,4,GREEN
-11,SHORT,RED,YELLOW,black,right,ic,fov_dis,4,?,6,1,YELLOW
-11,SIDE,GREEN,RED,black,right,ic,fov_dis,1,?,7,2,RED
-11,LABEL,BLUE,GREEN,black,right,ic,fov_dis,2,?,8,3,GREEN
-11,MAIN,YELLOW,BLUE,black,right,ic,fov_dis,3,?,5,4,BLUE
-11,SIDE,RED,black,RED,left,c,para_unified,1,?,7,1,RED
-11,LABEL,GREEN,black,GREEN,left,c,para_unified,2,?,8,2,GREEN
-11,MAIN,BLUE,black,BLUE,left,c,para_unified,3,?,5,3,BLUE
-11,SHORT,YELLOW,black,YELLOW,left,c,para_unified,4,?,6,4,YELLOW
-11,LABEL,RED,black,RED,right,c,para_unified,1,?,8,1,RED
-11,MAIN,GREEN,black,GREEN,right,c,para_unified,2,?,5,2,GREEN
-11,SHORT,BLUE,black,BLUE,right,c,para_unified,3,?,6,3,BLUE
-11,SIDE,YELLOW,black,YELLOW,right,c,para_unified,4,?,7,4,YELLOW
-11,MAIN,RED,black,BLUE,left,ic,para_unified,3,?,5,1,BLUE
-11,SHORT,GREEN,black,YELLOW,left,ic,para_unified,4,?,6,2,YELLOW
-11,SIDE,BLUE,black,RED,left,ic,para_unified,1,?,7,3,RED
-11,LABEL,YELLOW,black,GREEN,left,ic,para_unified,2,?,8,4,GREEN
-11,SHORT,RED,black,YELLOW,right,ic,para_unified,4,?,6,1,YELLOW
-11,SIDE,GREEN,black,RED,right,ic,para_unified,1,?,7,2,RED
-11,LABEL,BLUE,black,GREEN,right,ic,para_unified,2,?,8,3,GREEN
-11,MAIN,YELLOW,black,BLUE,right,ic,para_unified,3,?,5,4,BLUE
-12,RED,LABEL,RED,black,Left,c,foveal_unified,1,?,1,8,RED
-12,GREEN,MAIN,GREEN,black,Left,c,foveal_unified,2,?,2,5,GREEN
-12,BLUE,SHORT,BLUE,black,Left,c,foveal_unified,3,?,3,6,BLUE
-12,YELLOW,SIDE,YELLOW,black,Left,c,foveal_unified,4,?,4,7,YELLOW
-12,RED,MAIN,RED,black,Right,c,foveal_unified,1,?,1,5,RED
-12,GREEN,SHORT,GREEN,black,Right,c,foveal_unified,2,?,2,6,GREEN
-12,BLUE,SIDE,BLUE,black,Right,c,foveal_unified,3,?,3,7,BLUE
-12,YELLOW,LABEL,YELLOW,black,Right,c,foveal_unified,4,?,4,8,YELLOW
-12,RED,SHORT,YELLOW,black,Left,ic,foveal_unified,4,?,1,6,YELLOW
-12,GREEN,SIDE,RED,black,Left,ic,foveal_unified,1,?,2,7,RED
-12,BLUE,LABEL,GREEN,black,Left,ic,foveal_unified,2,?,3,8,GREEN
-12,YELLOW,MAIN,BLUE,black,Left,ic,foveal_unified,3,?,4,5,BLUE
-12,RED,SIDE,GREEN,black,Right,ic,foveal_unified,2,?,1,7,GREEN
-12,GREEN,LABEL,BLUE,black,Right,ic,foveal_unified,3,?,2,8,BLUE
-12,BLUE,MAIN,YELLOW,black,Right,ic,foveal_unified,4,?,3,5,YELLOW
-12,YELLOW,SHORT,RED,black,Right,ic,foveal_unified,1,?,4,6,RED
-12,RED,LABEL,black,RED,Left,c,para_dis,1,?,1,8,RED
-12,GREEN,MAIN,black,GREEN,Left,c,para_dis,2,?,2,5,GREEN
-12,BLUE,SHORT,black,BLUE,Left,c,para_dis,3,?,3,6,BLUE
-12,YELLOW,SIDE,black,YELLOW,Left,c,para_dis,4,?,4,7,YELLOW
-12,RED,MAIN,black,RED,Right,c,para_dis,1,?,1,5,RED
-12,GREEN,SHORT,black,GREEN,Right,c,para_dis,2,?,2,6,GREEN
-12,BLUE,SIDE,black,BLUE,Right,c,para_dis,3,?,3,7,BLUE
-12,YELLOW,LABEL,black,YELLOW,Right,c,para_dis,4,?,4,8,YELLOW
-12,RED,SHORT,black,YELLOW,left,ic,para_dis,4,?,1,6,YELLOW
-12,GREEN,SIDE,black,RED,left,ic,para_dis,1,?,2,7,RED
-12,BLUE,LABEL,black,GREEN,left,ic,para_dis,2,?,3,8,GREEN
-12,YELLOW,MAIN,black,BLUE,left,ic,para_dis,3,?,4,5,BLUE
-12,RED,SIDE,black,GREEN,right,ic,para_dis,2,?,1,7,GREEN
-12,GREEN,LABEL,black,BLUE,right,ic,para_dis,3,?,2,8,BLUE
-12,BLUE,MAIN,black,YELLOW,right,ic,para_dis,4,?,3,5,YELLOW
-12,YELLOW,SHORT,black,RED,right,ic,para_dis,1,?,4,6,RED
-12,LABEL,RED,RED,black,left,c,fov_dis,1,?,8,1,RED
-12,MAIN,GREEN,GREEN,black,left,c,fov_dis,2,?,5,2,GREEN
-12,SHORT,BLUE,BLUE,black,left,c,fov_dis,3,?,6,3,BLUE
-12,SIDE,YELLOW,YELLOW,black,left,c,fov_dis,4,?,7,4,YELLOW
-12,MAIN,RED,RED,black,right,c,fov_dis,1,?,5,1,RED
-12,SHORT,GREEN,GREEN,black,right,c,fov_dis,2,?,6,2,GREEN
-12,SIDE,BLUE,BLUE,black,right,c,fov_dis,3,?,7,3,BLUE
-12,LABEL,YELLOW,YELLOW,black,right,c,fov_dis,4,?,8,4,YELLOW
-12,SHORT,RED,GREEN,black,left,ic,fov_dis,2,?,6,1,GREEN
-12,SIDE,GREEN,BLUE,black,left,ic,fov_dis,3,?,7,2,BLUE
-12,LABEL,BLUE,YELLOW,black,left,ic,fov_dis,4,?,8,3,YELLOW
-12,MAIN,YELLOW,RED,black,left,ic,fov_dis,1,?,5,4,RED
-12,SIDE,RED,BLUE,black,right,ic,fov_dis,3,?,7,1,BLUE
-12,LABEL,GREEN,YELLOW,black,right,ic,fov_dis,4,?,8,2,YELLOW
-12,MAIN,BLUE,RED,black,right,ic,fov_dis,1,?,5,3,RED
-12,SHORT,YELLOW,GREEN,black,right,ic,fov_dis,2,?,6,4,GREEN
-12,LABEL,RED,black,RED,left,c,para_unified,1,?,8,1,RED
-12,MAIN,GREEN,black,GREEN,left,c,para_unified,2,?,5,2,GREEN
-12,SHORT,BLUE,black,BLUE,left,c,para_unified,3,?,6,3,BLUE
-12,SIDE,YELLOW,black,YELLOW,left,c,para_unified,4,?,7,4,YELLOW
-12,MAIN,RED,black,RED,right,c,para_unified,1,?,5,1,RED
-12,SHORT,GREEN,black,GREEN,right,c,para_unified,2,?,6,2,GREEN
-12,SIDE,BLUE,black,BLUE,right,c,para_unified,3,?,7,3,BLUE
-12,LABEL,YELLOW,black,YELLOW,right,c,para_unified,4,?,8,4,YELLOW
-12,SHORT,RED,black,GREEN,left,ic,para_unified,2,?,6,1,GREEN
-12,SIDE,GREEN,black,BLUE,left,ic,para_unified,3,?,7,2,BLUE
-12,LABEL,BLUE,black,YELLOW,left,ic,para_unified,4,?,8,3,YELLOW
-12,MAIN,YELLOW,black,RED,left,ic,para_unified,1,?,5,4,RED
-12,SIDE,RED,black,BLUE,right,ic,para_unified,3,?,7,1,BLUE
-12,LABEL,GREEN,black,YELLOW,right,ic,para_unified,4,?,8,2,YELLOW
-12,MAIN,BLUE,black,RED,right,ic,para_unified,1,?,5,3,RED
-12,SHORT,YELLOW,black,GREEN,right,ic,para_unified,2,?,6,4,GREEN
-13,RED,MAIN,RED,black,Left,c,foveal_unified,1,?,1,5,RED
-13,GREEN,SHORT,GREEN,black,Left,c,foveal_unified,2,?,2,6,GREEN
-13,BLUE,SIDE,BLUE,black,Left,c,foveal_unified,3,?,3,7,BLUE
-13,YELLOW,LABEL,YELLOW,black,Left,c,foveal_unified,4,?,4,8,YELLOW
-13,RED,SHORT,RED,black,Right,c,foveal_unified,1,?,1,6,RED
-13,GREEN,SIDE,GREEN,black,Right,c,foveal_unified,2,?,2,7,GREEN
-13,BLUE,LABEL,BLUE,black,Right,c,foveal_unified,3,?,3,8,BLUE
-13,YELLOW,MAIN,YELLOW,black,Right,c,foveal_unified,4,?,4,5,YELLOW
-13,RED,SIDE,GREEN,black,Left,ic,foveal_unified,2,?,1,7,GREEN
-13,GREEN,LABEL,BLUE,black,Left,ic,foveal_unified,3,?,2,8,BLUE
-13,BLUE,MAIN,YELLOW,black,Left,ic,foveal_unified,4,?,3,5,YELLOW
-13,YELLOW,SHORT,RED,black,Left,ic,foveal_unified,1,?,4,6,RED
-13,RED,LABEL,BLUE,black,Right,ic,foveal_unified,3,?,1,8,BLUE
-13,GREEN,MAIN,YELLOW,black,Right,ic,foveal_unified,4,?,2,5,YELLOW
-13,BLUE,SHORT,RED,black,Right,ic,foveal_unified,1,?,3,6,RED
-13,YELLOW,SIDE,GREEN,black,Right,ic,foveal_unified,2,?,4,7,GREEN
-13,RED,MAIN,black,RED,Left,c,para_dis,1,?,1,5,RED
-13,GREEN,SHORT,black,GREEN,Left,c,para_dis,2,?,2,6,GREEN
-13,BLUE,SIDE,black,BLUE,Left,c,para_dis,3,?,3,7,BLUE
-13,YELLOW,LABEL,black,YELLOW,Left,c,para_dis,4,?,4,8,YELLOW
-13,RED,SHORT,black,RED,Right,c,para_dis,1,?,1,6,RED
-13,GREEN,SIDE,black,GREEN,Right,c,para_dis,2,?,2,7,GREEN
-13,BLUE,LABEL,black,BLUE,Right,c,para_dis,3,?,3,8,BLUE
-13,YELLOW,MAIN,black,YELLOW,Right,c,para_dis,4,?,4,5,YELLOW
-13,RED,SIDE,black,GREEN,left,ic,para_dis,2,?,1,7,GREEN
-13,GREEN,LABEL,black,BLUE,left,ic,para_dis,3,?,2,8,BLUE
-13,BLUE,MAIN,black,YELLOW,left,ic,para_dis,4,?,3,5,YELLOW
-13,YELLOW,SHORT,black,RED,left,ic,para_dis,1,?,4,6,RED
-13,RED,LABEL,black,BLUE,right,ic,para_dis,3,?,1,8,BLUE
-13,GREEN,MAIN,black,YELLOW,right,ic,para_dis,4,?,2,5,YELLOW
-13,BLUE,SHORT,black,RED,right,ic,para_dis,1,?,3,6,RED
-13,YELLOW,SIDE,black,GREEN,right,ic,para_dis,2,?,4,7,GREEN
-13,MAIN,RED,RED,black,left,c,fov_dis,1,?,5,1,RED
-13,SHORT,GREEN,GREEN,black,left,c,fov_dis,2,?,6,2,GREEN
-13,SIDE,BLUE,BLUE,black,left,c,fov_dis,3,?,7,3,BLUE
-13,LABEL,YELLOW,YELLOW,black,left,c,fov_dis,4,?,8,4,YELLOW
-13,SHORT,RED,RED,black,right,c,fov_dis,1,?,6,1,RED
-13,SIDE,GREEN,GREEN,black,right,c,fov_dis,2,?,7,2,GREEN
-13,LABEL,BLUE,BLUE,black,right,c,fov_dis,3,?,8,3,BLUE
-13,MAIN,YELLOW,YELLOW,black,right,c,fov_dis,4,?,5,4,YELLOW
-13,SIDE,RED,BLUE,black,left,ic,fov_dis,3,?,7,1,BLUE
-13,LABEL,GREEN,YELLOW,black,left,ic,fov_dis,4,?,8,2,YELLOW
-13,MAIN,BLUE,RED,black,left,ic,fov_dis,1,?,5,3,RED
-13,SHORT,YELLOW,GREEN,black,left,ic,fov_dis,2,?,6,4,GREEN
-13,LABEL,RED,YELLOW,black,right,ic,fov_dis,4,?,8,1,YELLOW
-13,MAIN,GREEN,RED,black,right,ic,fov_dis,1,?,5,2,RED
-13,SHORT,BLUE,GREEN,black,right,ic,fov_dis,2,?,6,3,GREEN
-13,SIDE,YELLOW,BLUE,black,right,ic,fov_dis,3,?,7,4,BLUE
-13,MAIN,RED,black,RED,left,c,para_unified,1,?,5,1,RED
-13,SHORT,GREEN,black,GREEN,left,c,para_unified,2,?,6,2,GREEN
-13,SIDE,BLUE,black,BLUE,left,c,para_unified,3,?,7,3,BLUE
-13,LABEL,YELLOW,black,YELLOW,left,c,para_unified,4,?,8,4,YELLOW
-13,SHORT,RED,black,RED,right,c,para_unified,1,?,6,1,RED
-13,SIDE,GREEN,black,GREEN,right,c,para_unified,2,?,7,2,GREEN
-13,LABEL,BLUE,black,BLUE,right,c,para_unified,3,?,8,3,BLUE
-13,MAIN,YELLOW,black,YELLOW,right,c,para_unified,4,?,5,4,YELLOW
-13,SIDE,RED,black,BLUE,left,ic,para_unified,3,?,7,1,BLUE
-13,LABEL,GREEN,black,YELLOW,left,ic,para_unified,4,?,8,2,YELLOW
-13,MAIN,BLUE,black,RED,left,ic,para_unified,1,?,5,3,RED
-13,SHORT,YELLOW,black,GREEN,left,ic,para_unified,2,?,6,4,GREEN
-13,LABEL,RED,black,YELLOW,right,ic,para_unified,4,?,8,1,YELLOW
-13,MAIN,GREEN,black,RED,right,ic,para_unified,1,?,5,2,RED
-13,SHORT,BLUE,black,GREEN,right,ic,para_unified,2,?,6,3,GREEN
-13,SIDE,YELLOW,black,BLUE,right,ic,para_unified,3,?,7,4,BLUE
-14,RED,SHORT,RED,black,Left,c,foveal_unified,1,?,1,6,RED
-14,GREEN,SIDE,GREEN,black,Left,c,foveal_unified,2,?,2,7,GREEN
-14,BLUE,LABEL,BLUE,black,Left,c,foveal_unified,3,?,3,8,BLUE
-14,YELLOW,MAIN,YELLOW,black,Left,c,foveal_unified,4,?,4,5,YELLOW
-14,RED,SIDE,RED,black,Right,c,foveal_unified,1,?,1,7,RED
-14,GREEN,LABEL,GREEN,black,Right,c,foveal_unified,2,?,2,8,GREEN
-14,BLUE,MAIN,BLUE,black,Right,c,foveal_unified,3,?,3,5,BLUE
-14,YELLOW,SHORT,YELLOW,black,Right,c,foveal_unified,4,?,4,6,YELLOW
-14,RED,LABEL,YELLOW,black,Left,ic,foveal_unified,4,?,1,8,YELLOW
-14,GREEN,MAIN,RED,black,Left,ic,foveal_unified,1,?,2,5,RED
-14,BLUE,SHORT,GREEN,black,Left,ic,foveal_unified,2,?,3,6,GREEN
-14,YELLOW,SIDE,BLUE,black,Left,ic,foveal_unified,3,?,4,7,BLUE
-14,RED,MAIN,GREEN,black,Right,ic,foveal_unified,2,?,1,5,GREEN
-14,GREEN,SHORT,BLUE,black,Right,ic,foveal_unified,3,?,2,6,BLUE
-14,BLUE,SIDE,YELLOW,black,Right,ic,foveal_unified,4,?,3,7,YELLOW
-14,YELLOW,LABEL,RED,black,Right,ic,foveal_unified,1,?,4,8,RED
-14,RED,SHORT,black,RED,Left,c,para_dis,1,?,1,6,RED
-14,GREEN,SIDE,black,GREEN,Left,c,para_dis,2,?,2,7,GREEN
-14,BLUE,LABEL,black,BLUE,Left,c,para_dis,3,?,3,8,BLUE
-14,YELLOW,MAIN,black,YELLOW,Left,c,para_dis,4,?,4,5,YELLOW
-14,RED,SIDE,black,RED,Right,c,para_dis,1,?,1,7,RED
-14,GREEN,LABEL,black,GREEN,Right,c,para_dis,2,?,2,8,GREEN
-14,BLUE,MAIN,black,BLUE,Right,c,para_dis,3,?,3,5,BLUE
-14,YELLOW,SHORT,black,YELLOW,Right,c,para_dis,4,?,4,6,YELLOW
-14,RED,LABEL,black,YELLOW,left,ic,para_dis,4,?,1,8,YELLOW
-14,GREEN,MAIN,black,RED,left,ic,para_dis,1,?,2,5,RED
-14,BLUE,SHORT,black,GREEN,left,ic,para_dis,2,?,3,6,GREEN
-14,YELLOW,SIDE,black,BLUE,left,ic,para_dis,3,?,4,7,BLUE
-14,RED,MAIN,black,GREEN,right,ic,para_dis,2,?,1,5,GREEN
-14,GREEN,SHORT,black,BLUE,right,ic,para_dis,3,?,2,6,BLUE
-14,BLUE,SIDE,black,YELLOW,right,ic,para_dis,4,?,3,7,YELLOW
-14,YELLOW,LABEL,black,RED,right,ic,para_dis,1,?,4,8,RED
-14,SHORT,RED,RED,black,left,c,fov_dis,1,?,6,1,RED
-14,SIDE,GREEN,GREEN,black,left,c,fov_dis,2,?,7,2,GREEN
-14,LABEL,BLUE,BLUE,black,left,c,fov_dis,3,?,8,3,BLUE
-14,MAIN,YELLOW,YELLOW,black,left,c,fov_dis,4,?,5,4,YELLOW
-14,SIDE,RED,RED,black,right,c,fov_dis,1,?,7,1,RED
-14,LABEL,GREEN,GREEN,black,right,c,fov_dis,2,?,8,2,GREEN
-14,MAIN,BLUE,BLUE,black,right,c,fov_dis,3,?,5,3,BLUE
-14,SHORT,YELLOW,YELLOW,black,right,c,fov_dis,4,?,6,4,YELLOW
-14,LABEL,RED,GREEN,black,left,ic,fov_dis,2,?,8,1,GREEN
-14,MAIN,GREEN,BLUE,black,left,ic,fov_dis,3,?,5,2,BLUE
-14,SHORT,BLUE,YELLOW,black,left,ic,fov_dis,4,?,6,3,YELLOW
-14,SIDE,YELLOW,RED,black,left,ic,fov_dis,1,?,7,4,RED
-14,MAIN,RED,BLUE,black,right,ic,fov_dis,3,?,5,1,BLUE
-14,SHORT,GREEN,YELLOW,black,right,ic,fov_dis,4,?,6,2,YELLOW
-14,SIDE,BLUE,RED,black,right,ic,fov_dis,1,?,7,3,RED
-14,LABEL,YELLOW,GREEN,black,right,ic,fov_dis,2,?,8,4,GREEN
-14,SHORT,RED,black,RED,left,c,para_unified,1,?,6,1,RED
-14,SIDE,GREEN,black,GREEN,left,c,para_unified,2,?,7,2,GREEN
-14,LABEL,BLUE,black,BLUE,left,c,para_unified,3,?,8,3,BLUE
-14,MAIN,YELLOW,black,YELLOW,left,c,para_unified,4,?,5,4,YELLOW
-14,SIDE,RED,black,RED,right,c,para_unified,1,?,7,1,RED
-14,LABEL,GREEN,black,GREEN,right,c,para_unified,2,?,8,2,GREEN
-14,MAIN,BLUE,black,BLUE,right,c,para_unified,3,?,5,3,BLUE
-14,SHORT,YELLOW,black,YELLOW,right,c,para_unified,4,?,6,4,YELLOW
-14,LABEL,RED,black,GREEN,left,ic,para_unified,2,?,8,1,GREEN
-14,MAIN,GREEN,black,BLUE,left,ic,para_unified,3,?,5,2,BLUE
-14,SHORT,BLUE,black,YELLOW,left,ic,para_unified,4,?,6,3,YELLOW
-14,SIDE,YELLOW,black,RED,left,ic,para_unified,1,?,7,4,RED
-14,MAIN,RED,black,BLUE,right,ic,para_unified,3,?,5,1,BLUE
-14,SHORT,GREEN,black,YELLOW,right,ic,para_unified,4,?,6,2,YELLOW
-14,SIDE,BLUE,black,RED,right,ic,para_unified,1,?,7,3,RED
-14,LABEL,YELLOW,black,GREEN,right,ic,para_unified,2,?,8,4,GREEN
-15,RED,SIDE,RED,black,Left,c,foveal_unified,1,?,1,7,RED
-15,GREEN,LABEL,GREEN,black,Left,c,foveal_unified,2,?,2,8,GREEN
-15,BLUE,MAIN,BLUE,black,Left,c,foveal_unified,3,?,3,5,BLUE
-15,YELLOW,SHORT,YELLOW,black,Left,c,foveal_unified,4,?,4,6,YELLOW
-15,RED,LABEL,RED,black,Right,c,foveal_unified,1,?,1,8,RED
-15,GREEN,MAIN,GREEN,black,Right,c,foveal_unified,2,?,2,5,GREEN
-15,BLUE,SHORT,BLUE,black,Right,c,foveal_unified,3,?,3,6,BLUE
-15,YELLOW,SIDE,YELLOW,black,Right,c,foveal_unified,4,?,4,7,YELLOW
-15,RED,MAIN,GREEN,black,Left,ic,foveal_unified,2,?,1,5,GREEN
-15,GREEN,SHORT,BLUE,black,Left,ic,foveal_unified,3,?,2,6,BLUE
-15,BLUE,SIDE,YELLOW,black,Left,ic,foveal_unified,4,?,3,7,YELLOW
-15,YELLOW,LABEL,RED,black,Left,ic,foveal_unified,1,?,4,8,RED
-15,RED,SHORT,BLUE,black,Right,ic,foveal_unified,3,?,1,6,BLUE
-15,GREEN,SIDE,YELLOW,black,Right,ic,foveal_unified,4,?,2,7,YELLOW
-15,BLUE,LABEL,RED,black,Right,ic,foveal_unified,1,?,3,8,RED
-15,YELLOW,MAIN,GREEN,black,Right,ic,foveal_unified,2,?,4,5,GREEN
-15,RED,SIDE,black,RED,Left,c,para_dis,1,?,1,7,RED
-15,GREEN,LABEL,black,GREEN,Left,c,para_dis,2,?,2,8,GREEN
-15,BLUE,MAIN,black,BLUE,Left,c,para_dis,3,?,3,5,BLUE
-15,YELLOW,SHORT,black,YELLOW,Left,c,para_dis,4,?,4,6,YELLOW
-15,RED,LABEL,black,RED,Right,c,para_dis,1,?,1,8,RED
-15,GREEN,MAIN,black,GREEN,Right,c,para_dis,2,?,2,5,GREEN
-15,BLUE,SHORT,black,BLUE,Right,c,para_dis,3,?,3,6,BLUE
-15,YELLOW,SIDE,black,YELLOW,Right,c,para_dis,4,?,4,7,YELLOW
-15,RED,MAIN,black,GREEN,left,ic,para_dis,2,?,1,5,GREEN
-15,GREEN,SHORT,black,BLUE,left,ic,para_dis,3,?,2,6,BLUE
-15,BLUE,SIDE,black,YELLOW,left,ic,para_dis,4,?,3,7,YELLOW
-15,YELLOW,LABEL,black,RED,left,ic,para_dis,1,?,4,8,RED
-15,RED,SHORT,black,BLUE,right,ic,para_dis,3,?,1,6,BLUE
-15,GREEN,SIDE,black,YELLOW,right,ic,para_dis,4,?,2,7,YELLOW
-15,BLUE,LABEL,black,RED,right,ic,para_dis,1,?,3,8,RED
-15,YELLOW,MAIN,black,GREEN,right,ic,para_dis,2,?,4,5,GREEN
-15,SIDE,RED,RED,black,left,c,fov_dis,1,?,7,1,RED
-15,LABEL,GREEN,GREEN,black,left,c,fov_dis,2,?,8,2,GREEN
-15,MAIN,BLUE,BLUE,black,left,c,fov_dis,3,?,5,3,BLUE
-15,SHORT,YELLOW,YELLOW,black,left,c,fov_dis,4,?,6,4,YELLOW
-15,LABEL,RED,RED,black,right,c,fov_dis,1,?,8,1,RED
-15,MAIN,GREEN,GREEN,black,right,c,fov_dis,2,?,5,2,GREEN
-15,SHORT,BLUE,BLUE,black,right,c,fov_dis,3,?,6,3,BLUE
-15,SIDE,YELLOW,YELLOW,black,right,c,fov_dis,4,?,7,4,YELLOW
-15,MAIN,RED,BLUE,black,left,ic,fov_dis,3,?,5,1,BLUE
-15,SHORT,GREEN,YELLOW,black,left,ic,fov_dis,4,?,6,2,YELLOW
-15,SIDE,BLUE,RED,black,left,ic,fov_dis,1,?,7,3,RED
-15,LABEL,YELLOW,GREEN,black,left,ic,fov_dis,2,?,8,4,GREEN
-15,SHORT,RED,YELLOW,black,right,ic,fov_dis,4,?,6,1,YELLOW
-15,SIDE,GREEN,RED,black,right,ic,fov_dis,1,?,7,2,RED
-15,LABEL,BLUE,GREEN,black,right,ic,fov_dis,2,?,8,3,GREEN
-15,MAIN,YELLOW,BLUE,black,right,ic,fov_dis,3,?,5,4,BLUE
-15,SIDE,RED,black,RED,left,c,para_unified,1,?,7,1,RED
-15,LABEL,GREEN,black,GREEN,left,c,para_unified,2,?,8,2,GREEN
-15,MAIN,BLUE,black,BLUE,left,c,para_unified,3,?,5,3,BLUE
-15,SHORT,YELLOW,black,YELLOW,left,c,para_unified,4,?,6,4,YELLOW
-15,LABEL,RED,black,RED,right,c,para_unified,1,?,8,1,RED
-15,MAIN,GREEN,black,GREEN,right,c,para_unified,2,?,5,2,GREEN
-15,SHORT,BLUE,black,BLUE,right,c,para_unified,3,?,6,3,BLUE
-15,SIDE,YELLOW,black,YELLOW,right,c,para_unified,4,?,7,4,YELLOW
-15,MAIN,RED,black,BLUE,left,ic,para_unified,3,?,5,1,BLUE
-15,SHORT,GREEN,black,YELLOW,left,ic,para_unified,4,?,6,2,YELLOW
-15,SIDE,BLUE,black,RED,left,ic,para_unified,1,?,7,3,RED
-15,LABEL,YELLOW,black,GREEN,left,ic,para_unified,2,?,8,4,GREEN
-15,SHORT,RED,black,YELLOW,right,ic,para_unified,4,?,6,1,YELLOW
-15,SIDE,GREEN,black,RED,right,ic,para_unified,1,?,7,2,RED
-15,LABEL,BLUE,black,GREEN,right,ic,para_unified,2,?,8,3,GREEN
-15,MAIN,YELLOW,black,BLUE,right,ic,para_unified,3,?,5,4,BLUE
-16,RED,LABEL,RED,black,Left,c,foveal_unified,1,?,1,8,RED
-16,GREEN,MAIN,GREEN,black,Left,c,foveal_unified,2,?,2,5,GREEN
-16,BLUE,SHORT,BLUE,black,Left,c,foveal_unified,3,?,3,6,BLUE
-16,YELLOW,SIDE,YELLOW,black,Left,c,foveal_unified,4,?,4,7,YELLOW
-16,RED,MAIN,RED,black,Right,c,foveal_unified,1,?,1,5,RED
-16,GREEN,SHORT,GREEN,black,Right,c,foveal_unified,2,?,2,6,GREEN
-16,BLUE,SIDE,BLUE,black,Right,c,foveal_unified,3,?,3,7,BLUE
-16,YELLOW,LABEL,YELLOW,black,Right,c,foveal_unified,4,?,4,8,YELLOW
-16,RED,SHORT,YELLOW,black,Left,ic,foveal_unified,4,?,1,6,YELLOW
-16,GREEN,SIDE,RED,black,Left,ic,foveal_unified,1,?,2,7,RED
-16,BLUE,LABEL,GREEN,black,Left,ic,foveal_unified,2,?,3,8,GREEN
-16,YELLOW,MAIN,BLUE,black,Left,ic,foveal_unified,3,?,4,5,BLUE
-16,RED,SIDE,GREEN,black,Right,ic,foveal_unified,2,?,1,7,GREEN
-16,GREEN,LABEL,BLUE,black,Right,ic,foveal_unified,3,?,2,8,BLUE
-16,BLUE,MAIN,YELLOW,black,Right,ic,foveal_unified,4,?,3,5,YELLOW
-16,YELLOW,SHORT,RED,black,Right,ic,foveal_unified,1,?,4,6,RED
-16,RED,LABEL,black,RED,Left,c,para_dis,1,?,1,8,RED
-16,GREEN,MAIN,black,GREEN,Left,c,para_dis,2,?,2,5,GREEN
-16,BLUE,SHORT,black,BLUE,Left,c,para_dis,3,?,3,6,BLUE
-16,YELLOW,SIDE,black,YELLOW,Left,c,para_dis,4,?,4,7,YELLOW
-16,RED,MAIN,black,RED,Right,c,para_dis,1,?,1,5,RED
-16,GREEN,SHORT,black,GREEN,Right,c,para_dis,2,?,2,6,GREEN
-16,BLUE,SIDE,black,BLUE,Right,c,para_dis,3,?,3,7,BLUE
-16,YELLOW,LABEL,black,YELLOW,Right,c,para_dis,4,?,4,8,YELLOW
-16,RED,SHORT,black,YELLOW,left,ic,para_dis,4,?,1,6,YELLOW
-16,GREEN,SIDE,black,RED,left,ic,para_dis,1,?,2,7,RED
-16,BLUE,LABEL,black,GREEN,left,ic,para_dis,2,?,3,8,GREEN
-16,YELLOW,MAIN,black,BLUE,left,ic,para_dis,3,?,4,5,BLUE
-16,RED,SIDE,black,GREEN,right,ic,para_dis,2,?,1,7,GREEN
-16,GREEN,LABEL,black,BLUE,right,ic,para_dis,3,?,2,8,BLUE
-16,BLUE,MAIN,black,YELLOW,right,ic,para_dis,4,?,3,5,YELLOW
-16,YELLOW,SHORT,black,RED,right,ic,para_dis,1,?,4,6,RED
-16,LABEL,RED,RED,black,left,c,fov_dis,1,?,8,1,RED
-16,MAIN,GREEN,GREEN,black,left,c,fov_dis,2,?,5,2,GREEN
-16,SHORT,BLUE,BLUE,black,left,c,fov_dis,3,?,6,3,BLUE
-16,SIDE,YELLOW,YELLOW,black,left,c,fov_dis,4,?,7,4,YELLOW
-16,MAIN,RED,RED,black,right,c,fov_dis,1,?,5,1,RED
-16,SHORT,GREEN,GREEN,black,right,c,fov_dis,2,?,6,2,GREEN
-16,SIDE,BLUE,BLUE,black,right,c,fov_dis,3,?,7,3,BLUE
-16,LABEL,YELLOW,YELLOW,black,right,c,fov_dis,4,?,8,4,YELLOW
-16,SHORT,RED,GREEN,black,left,ic,fov_dis,2,?,6,1,GREEN
-16,SIDE,GREEN,BLUE,black,left,ic,fov_dis,3,?,7,2,BLUE
-16,LABEL,BLUE,YELLOW,black,left,ic,fov_dis,4,?,8,3,YELLOW
-16,MAIN,YELLOW,RED,black,left,ic,fov_dis,1,?,5,4,RED
-16,SIDE,RED,BLUE,black,right,ic,fov_dis,3,?,7,1,BLUE
-16,LABEL,GREEN,YELLOW,black,right,ic,fov_dis,4,?,8,2,YELLOW
-16,MAIN,BLUE,RED,black,right,ic,fov_dis,1,?,5,3,RED
-16,SHORT,YELLOW,GREEN,black,right,ic,fov_dis,2,?,6,4,GREEN
-16,LABEL,RED,black,RED,left,c,para_unified,1,?,8,1,RED
-16,MAIN,GREEN,black,GREEN,left,c,para_unified,2,?,5,2,GREEN
-16,SHORT,BLUE,black,BLUE,left,c,para_unified,3,?,6,3,BLUE
-16,SIDE,YELLOW,black,YELLOW,left,c,para_unified,4,?,7,4,YELLOW
-16,MAIN,RED,black,RED,right,c,para_unified,1,?,5,1,RED
-16,SHORT,GREEN,black,GREEN,right,c,para_unified,2,?,6,2,GREEN
-16,SIDE,BLUE,black,BLUE,right,c,para_unified,3,?,7,3,BLUE
-16,LABEL,YELLOW,black,YELLOW,right,c,para_unified,4,?,8,4,YELLOW
-16,SHORT,RED,black,GREEN,left,ic,para_unified,2,?,6,1,GREEN
-16,SIDE,GREEN,black,BLUE,left,ic,para_unified,3,?,7,2,BLUE
-16,LABEL,BLUE,black,YELLOW,left,ic,para_unified,4,?,8,3,YELLOW
-16,MAIN,YELLOW,black,RED,left,ic,para_unified,1,?,5,4,RED
-16,SIDE,RED,black,BLUE,right,ic,para_unified,3,?,7,1,BLUE
-16,LABEL,GREEN,black,YELLOW,right,ic,para_unified,4,?,8,2,YELLOW
-16,MAIN,BLUE,black,RED,right,ic,para_unified,1,?,5,3,RED
-16,SHORT,YELLOW,black,GREEN,right,ic,para_unified,2,?,6,4,GREEN
+block,FovWord,ParaWord,FovCol,ParaCol,ParaLoc,ParaPos,Congruency,Condition,CorrectNum,StimTrig,RespTrig,CheckFoveal,CheckPara,correctString
+1,RED,MAIN,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,5,RED
+1,GREEN,SHORT,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,6,GREEN
+1,BLUE,SIDE,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,7,BLUE
+1,YELLOW,LABEL,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,8,YELLOW
+1,RED,SHORT,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,6,RED
+1,GREEN,SIDE,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,7,GREEN
+1,BLUE,LABEL,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,8,BLUE
+1,YELLOW,MAIN,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,5,YELLOW
+1,RED,SIDE,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,1,7,GREEN
+1,GREEN,LABEL,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,2,8,BLUE
+1,BLUE,MAIN,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,3,5,YELLOW
+1,YELLOW,SHORT,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,4,6,RED
+1,RED,LABEL,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,1,8,BLUE
+1,GREEN,MAIN,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,2,5,YELLOW
+1,BLUE,SHORT,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,3,6,RED
+1,YELLOW,SIDE,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,4,7,GREEN
+1,RED,MAIN,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,5,RED
+1,GREEN,SHORT,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,6,GREEN
+1,BLUE,SIDE,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,7,BLUE
+1,YELLOW,LABEL,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,8,YELLOW
+1,RED,SHORT,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,6,RED
+1,GREEN,SIDE,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,7,GREEN
+1,BLUE,LABEL,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,8,BLUE
+1,YELLOW,MAIN,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,5,YELLOW
+1,RED,SIDE,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,1,7,GREEN
+1,GREEN,LABEL,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,2,8,BLUE
+1,BLUE,MAIN,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,3,5,YELLOW
+1,YELLOW,SHORT,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,4,6,RED
+1,RED,LABEL,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,1,8,BLUE
+1,GREEN,MAIN,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,2,5,YELLOW
+1,BLUE,SHORT,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,3,6,RED
+1,YELLOW,SIDE,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,4,7,GREEN
+1,MAIN,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,5,1,RED
+1,SHORT,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,6,2,GREEN
+1,SIDE,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,7,3,BLUE
+1,LABEL,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,8,4,YELLOW
+1,SHORT,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,6,1,RED
+1,SIDE,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,7,2,GREEN
+1,LABEL,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,8,3,BLUE
+1,MAIN,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,5,4,YELLOW
+1,SIDE,RED,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,7,1,BLUE
+1,LABEL,GREEN,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,8,2,YELLOW
+1,MAIN,BLUE,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,5,3,RED
+1,SHORT,YELLOW,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,6,4,GREEN
+1,LABEL,RED,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,8,1,YELLOW
+1,MAIN,GREEN,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,5,2,RED
+1,SHORT,BLUE,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,6,3,GREEN
+1,SIDE,YELLOW,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,7,4,BLUE
+1,MAIN,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,5,1,RED
+1,SHORT,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,6,2,GREEN
+1,SIDE,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,7,3,BLUE
+1,LABEL,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,8,4,YELLOW
+1,SHORT,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,6,1,RED
+1,SIDE,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,7,2,GREEN
+1,LABEL,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,8,3,BLUE
+1,MAIN,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,5,4,YELLOW
+1,SIDE,RED,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,7,1,BLUE
+1,LABEL,GREEN,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,8,2,YELLOW
+1,MAIN,BLUE,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,5,3,RED
+1,SHORT,YELLOW,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,6,4,GREEN
+1,LABEL,RED,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,8,1,YELLOW
+1,MAIN,GREEN,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,5,2,RED
+1,SHORT,BLUE,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,6,3,GREEN
+1,SIDE,YELLOW,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,7,4,BLUE
+2,RED,SHORT,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,6,RED
+2,GREEN,SIDE,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,7,GREEN
+2,BLUE,LABEL,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,8,BLUE
+2,YELLOW,MAIN,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,5,YELLOW
+2,RED,SIDE,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,7,RED
+2,GREEN,LABEL,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,8,GREEN
+2,BLUE,MAIN,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,5,BLUE
+2,YELLOW,SHORT,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,6,YELLOW
+2,RED,LABEL,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,1,8,YELLOW
+2,GREEN,MAIN,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,2,5,RED
+2,BLUE,SHORT,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,3,6,GREEN
+2,YELLOW,SIDE,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,4,7,BLUE
+2,RED,MAIN,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,1,5,GREEN
+2,GREEN,SHORT,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,2,6,BLUE
+2,BLUE,SIDE,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,3,7,YELLOW
+2,YELLOW,LABEL,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,4,8,RED
+2,RED,SHORT,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,6,RED
+2,GREEN,SIDE,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,7,GREEN
+2,BLUE,LABEL,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,8,BLUE
+2,YELLOW,MAIN,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,5,YELLOW
+2,RED,SIDE,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,7,RED
+2,GREEN,LABEL,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,8,GREEN
+2,BLUE,MAIN,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,5,BLUE
+2,YELLOW,SHORT,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,6,YELLOW
+2,RED,LABEL,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,1,8,YELLOW
+2,GREEN,MAIN,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,2,5,RED
+2,BLUE,SHORT,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,3,6,GREEN
+2,YELLOW,SIDE,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,4,7,BLUE
+2,RED,MAIN,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,1,5,GREEN
+2,GREEN,SHORT,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,2,6,BLUE
+2,BLUE,SIDE,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,3,7,YELLOW
+2,YELLOW,LABEL,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,4,8,RED
+2,SHORT,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,6,1,RED
+2,SIDE,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,7,2,GREEN
+2,LABEL,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,8,3,BLUE
+2,MAIN,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,5,4,YELLOW
+2,SIDE,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,7,1,RED
+2,LABEL,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,8,2,GREEN
+2,MAIN,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,5,3,BLUE
+2,SHORT,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,6,4,YELLOW
+2,LABEL,RED,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,8,1,GREEN
+2,MAIN,GREEN,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,5,2,BLUE
+2,SHORT,BLUE,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,6,3,YELLOW
+2,SIDE,YELLOW,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,7,4,RED
+2,MAIN,RED,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,5,1,BLUE
+2,SHORT,GREEN,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,6,2,YELLOW
+2,SIDE,BLUE,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,7,3,RED
+2,LABEL,YELLOW,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,8,4,GREEN
+2,SHORT,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,6,1,RED
+2,SIDE,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,7,2,GREEN
+2,LABEL,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,8,3,BLUE
+2,MAIN,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,5,4,YELLOW
+2,SIDE,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,7,1,RED
+2,LABEL,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,8,2,GREEN
+2,MAIN,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,5,3,BLUE
+2,SHORT,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,6,4,YELLOW
+2,LABEL,RED,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,8,1,GREEN
+2,MAIN,GREEN,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,5,2,BLUE
+2,SHORT,BLUE,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,6,3,YELLOW
+2,SIDE,YELLOW,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,7,4,RED
+2,MAIN,RED,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,5,1,BLUE
+2,SHORT,GREEN,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,6,2,YELLOW
+2,SIDE,BLUE,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,7,3,RED
+2,LABEL,YELLOW,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,8,4,GREEN
+3,RED,SIDE,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,7,RED
+3,GREEN,LABEL,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,8,GREEN
+3,BLUE,MAIN,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,5,BLUE
+3,YELLOW,SHORT,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,6,YELLOW
+3,RED,LABEL,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,8,RED
+3,GREEN,MAIN,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,5,GREEN
+3,BLUE,SHORT,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,6,BLUE
+3,YELLOW,SIDE,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,7,YELLOW
+3,RED,MAIN,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,1,5,GREEN
+3,GREEN,SHORT,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,2,6,BLUE
+3,BLUE,SIDE,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,3,7,YELLOW
+3,YELLOW,LABEL,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,4,8,RED
+3,RED,SHORT,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,1,6,BLUE
+3,GREEN,SIDE,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,2,7,YELLOW
+3,BLUE,LABEL,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,3,8,RED
+3,YELLOW,MAIN,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,4,5,GREEN
+3,RED,SIDE,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,7,RED
+3,GREEN,LABEL,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,8,GREEN
+3,BLUE,MAIN,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,5,BLUE
+3,YELLOW,SHORT,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,6,YELLOW
+3,RED,LABEL,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,8,RED
+3,GREEN,MAIN,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,5,GREEN
+3,BLUE,SHORT,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,6,BLUE
+3,YELLOW,SIDE,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,7,YELLOW
+3,RED,MAIN,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,1,5,GREEN
+3,GREEN,SHORT,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,2,6,BLUE
+3,BLUE,SIDE,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,3,7,YELLOW
+3,YELLOW,LABEL,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,4,8,RED
+3,RED,SHORT,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,1,6,BLUE
+3,GREEN,SIDE,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,2,7,YELLOW
+3,BLUE,LABEL,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,3,8,RED
+3,YELLOW,MAIN,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,4,5,GREEN
+3,SIDE,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,7,1,RED
+3,LABEL,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,8,2,GREEN
+3,MAIN,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,5,3,BLUE
+3,SHORT,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,6,4,YELLOW
+3,LABEL,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,8,1,RED
+3,MAIN,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,5,2,GREEN
+3,SHORT,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,6,3,BLUE
+3,SIDE,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,7,4,YELLOW
+3,MAIN,RED,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,5,1,BLUE
+3,SHORT,GREEN,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,6,2,YELLOW
+3,SIDE,BLUE,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,7,3,RED
+3,LABEL,YELLOW,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,8,4,GREEN
+3,SHORT,RED,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,6,1,YELLOW
+3,SIDE,GREEN,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,7,2,RED
+3,LABEL,BLUE,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,8,3,GREEN
+3,MAIN,YELLOW,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,5,4,BLUE
+3,SIDE,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,7,1,RED
+3,LABEL,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,8,2,GREEN
+3,MAIN,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,5,3,BLUE
+3,SHORT,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,6,4,YELLOW
+3,LABEL,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,8,1,RED
+3,MAIN,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,5,2,GREEN
+3,SHORT,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,6,3,BLUE
+3,SIDE,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,7,4,YELLOW
+3,MAIN,RED,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,5,1,BLUE
+3,SHORT,GREEN,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,6,2,YELLOW
+3,SIDE,BLUE,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,7,3,RED
+3,LABEL,YELLOW,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,8,4,GREEN
+3,SHORT,RED,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,6,1,YELLOW
+3,SIDE,GREEN,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,7,2,RED
+3,LABEL,BLUE,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,8,3,GREEN
+3,MAIN,YELLOW,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,5,4,BLUE
+4,RED,LABEL,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,8,RED
+4,GREEN,MAIN,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,5,GREEN
+4,BLUE,SHORT,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,6,BLUE
+4,YELLOW,SIDE,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,7,YELLOW
+4,RED,MAIN,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,5,RED
+4,GREEN,SHORT,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,6,GREEN
+4,BLUE,SIDE,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,7,BLUE
+4,YELLOW,LABEL,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,8,YELLOW
+4,RED,SHORT,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,1,6,YELLOW
+4,GREEN,SIDE,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,2,7,RED
+4,BLUE,LABEL,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,3,8,GREEN
+4,YELLOW,MAIN,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,4,5,BLUE
+4,RED,SIDE,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,1,7,GREEN
+4,GREEN,LABEL,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,2,8,BLUE
+4,BLUE,MAIN,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,3,5,YELLOW
+4,YELLOW,SHORT,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,4,6,RED
+4,RED,LABEL,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,8,RED
+4,GREEN,MAIN,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,5,GREEN
+4,BLUE,SHORT,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,6,BLUE
+4,YELLOW,SIDE,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,7,YELLOW
+4,RED,MAIN,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,5,RED
+4,GREEN,SHORT,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,6,GREEN
+4,BLUE,SIDE,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,7,BLUE
+4,YELLOW,LABEL,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,8,YELLOW
+4,RED,SHORT,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,1,6,YELLOW
+4,GREEN,SIDE,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,2,7,RED
+4,BLUE,LABEL,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,3,8,GREEN
+4,YELLOW,MAIN,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,4,5,BLUE
+4,RED,SIDE,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,1,7,GREEN
+4,GREEN,LABEL,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,2,8,BLUE
+4,BLUE,MAIN,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,3,5,YELLOW
+4,YELLOW,SHORT,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,4,6,RED
+4,LABEL,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,8,1,RED
+4,MAIN,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,5,2,GREEN
+4,SHORT,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,6,3,BLUE
+4,SIDE,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,7,4,YELLOW
+4,MAIN,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,5,1,RED
+4,SHORT,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,6,2,GREEN
+4,SIDE,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,7,3,BLUE
+4,LABEL,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,8,4,YELLOW
+4,SHORT,RED,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,6,1,GREEN
+4,SIDE,GREEN,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,7,2,BLUE
+4,LABEL,BLUE,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,8,3,YELLOW
+4,MAIN,YELLOW,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,5,4,RED
+4,SIDE,RED,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,7,1,BLUE
+4,LABEL,GREEN,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,8,2,YELLOW
+4,MAIN,BLUE,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,5,3,RED
+4,SHORT,YELLOW,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,6,4,GREEN
+4,LABEL,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,8,1,RED
+4,MAIN,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,5,2,GREEN
+4,SHORT,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,6,3,BLUE
+4,SIDE,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,7,4,YELLOW
+4,MAIN,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,5,1,RED
+4,SHORT,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,6,2,GREEN
+4,SIDE,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,7,3,BLUE
+4,LABEL,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,8,4,YELLOW
+4,SHORT,RED,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,6,1,GREEN
+4,SIDE,GREEN,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,7,2,BLUE
+4,LABEL,BLUE,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,8,3,YELLOW
+4,MAIN,YELLOW,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,5,4,RED
+4,SIDE,RED,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,7,1,BLUE
+4,LABEL,GREEN,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,8,2,YELLOW
+4,MAIN,BLUE,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,5,3,RED
+4,SHORT,YELLOW,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,6,4,GREEN
+5,RED,MAIN,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,5,RED
+5,GREEN,SHORT,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,6,GREEN
+5,BLUE,SIDE,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,7,BLUE
+5,YELLOW,LABEL,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,8,YELLOW
+5,RED,SHORT,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,6,RED
+5,GREEN,SIDE,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,7,GREEN
+5,BLUE,LABEL,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,8,BLUE
+5,YELLOW,MAIN,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,5,YELLOW
+5,RED,SIDE,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,1,7,GREEN
+5,GREEN,LABEL,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,2,8,BLUE
+5,BLUE,MAIN,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,3,5,YELLOW
+5,YELLOW,SHORT,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,4,6,RED
+5,RED,LABEL,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,1,8,BLUE
+5,GREEN,MAIN,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,2,5,YELLOW
+5,BLUE,SHORT,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,3,6,RED
+5,YELLOW,SIDE,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,4,7,GREEN
+5,RED,MAIN,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,5,RED
+5,GREEN,SHORT,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,6,GREEN
+5,BLUE,SIDE,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,7,BLUE
+5,YELLOW,LABEL,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,8,YELLOW
+5,RED,SHORT,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,6,RED
+5,GREEN,SIDE,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,7,GREEN
+5,BLUE,LABEL,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,8,BLUE
+5,YELLOW,MAIN,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,5,YELLOW
+5,RED,SIDE,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,1,7,GREEN
+5,GREEN,LABEL,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,2,8,BLUE
+5,BLUE,MAIN,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,3,5,YELLOW
+5,YELLOW,SHORT,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,4,6,RED
+5,RED,LABEL,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,1,8,BLUE
+5,GREEN,MAIN,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,2,5,YELLOW
+5,BLUE,SHORT,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,3,6,RED
+5,YELLOW,SIDE,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,4,7,GREEN
+5,MAIN,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,5,1,RED
+5,SHORT,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,6,2,GREEN
+5,SIDE,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,7,3,BLUE
+5,LABEL,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,8,4,YELLOW
+5,SHORT,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,6,1,RED
+5,SIDE,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,7,2,GREEN
+5,LABEL,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,8,3,BLUE
+5,MAIN,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,5,4,YELLOW
+5,SIDE,RED,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,7,1,BLUE
+5,LABEL,GREEN,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,8,2,YELLOW
+5,MAIN,BLUE,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,5,3,RED
+5,SHORT,YELLOW,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,6,4,GREEN
+5,LABEL,RED,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,8,1,YELLOW
+5,MAIN,GREEN,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,5,2,RED
+5,SHORT,BLUE,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,6,3,GREEN
+5,SIDE,YELLOW,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,7,4,BLUE
+5,MAIN,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,5,1,RED
+5,SHORT,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,6,2,GREEN
+5,SIDE,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,7,3,BLUE
+5,LABEL,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,8,4,YELLOW
+5,SHORT,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,6,1,RED
+5,SIDE,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,7,2,GREEN
+5,LABEL,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,8,3,BLUE
+5,MAIN,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,5,4,YELLOW
+5,SIDE,RED,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,7,1,BLUE
+5,LABEL,GREEN,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,8,2,YELLOW
+5,MAIN,BLUE,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,5,3,RED
+5,SHORT,YELLOW,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,6,4,GREEN
+5,LABEL,RED,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,8,1,YELLOW
+5,MAIN,GREEN,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,5,2,RED
+5,SHORT,BLUE,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,6,3,GREEN
+5,SIDE,YELLOW,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,7,4,BLUE
+6,RED,SHORT,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,6,RED
+6,GREEN,SIDE,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,7,GREEN
+6,BLUE,LABEL,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,8,BLUE
+6,YELLOW,MAIN,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,5,YELLOW
+6,RED,SIDE,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,7,RED
+6,GREEN,LABEL,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,8,GREEN
+6,BLUE,MAIN,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,5,BLUE
+6,YELLOW,SHORT,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,6,YELLOW
+6,RED,LABEL,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,1,8,YELLOW
+6,GREEN,MAIN,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,2,5,RED
+6,BLUE,SHORT,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,3,6,GREEN
+6,YELLOW,SIDE,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,4,7,BLUE
+6,RED,MAIN,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,1,5,GREEN
+6,GREEN,SHORT,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,2,6,BLUE
+6,BLUE,SIDE,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,3,7,YELLOW
+6,YELLOW,LABEL,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,4,8,RED
+6,RED,SHORT,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,6,RED
+6,GREEN,SIDE,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,7,GREEN
+6,BLUE,LABEL,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,8,BLUE
+6,YELLOW,MAIN,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,5,YELLOW
+6,RED,SIDE,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,7,RED
+6,GREEN,LABEL,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,8,GREEN
+6,BLUE,MAIN,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,5,BLUE
+6,YELLOW,SHORT,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,6,YELLOW
+6,RED,LABEL,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,1,8,YELLOW
+6,GREEN,MAIN,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,2,5,RED
+6,BLUE,SHORT,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,3,6,GREEN
+6,YELLOW,SIDE,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,4,7,BLUE
+6,RED,MAIN,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,1,5,GREEN
+6,GREEN,SHORT,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,2,6,BLUE
+6,BLUE,SIDE,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,3,7,YELLOW
+6,YELLOW,LABEL,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,4,8,RED
+6,SHORT,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,6,1,RED
+6,SIDE,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,7,2,GREEN
+6,LABEL,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,8,3,BLUE
+6,MAIN,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,5,4,YELLOW
+6,SIDE,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,7,1,RED
+6,LABEL,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,8,2,GREEN
+6,MAIN,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,5,3,BLUE
+6,SHORT,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,6,4,YELLOW
+6,LABEL,RED,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,8,1,GREEN
+6,MAIN,GREEN,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,5,2,BLUE
+6,SHORT,BLUE,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,6,3,YELLOW
+6,SIDE,YELLOW,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,7,4,RED
+6,MAIN,RED,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,5,1,BLUE
+6,SHORT,GREEN,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,6,2,YELLOW
+6,SIDE,BLUE,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,7,3,RED
+6,LABEL,YELLOW,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,8,4,GREEN
+6,SHORT,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,6,1,RED
+6,SIDE,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,7,2,GREEN
+6,LABEL,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,8,3,BLUE
+6,MAIN,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,5,4,YELLOW
+6,SIDE,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,7,1,RED
+6,LABEL,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,8,2,GREEN
+6,MAIN,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,5,3,BLUE
+6,SHORT,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,6,4,YELLOW
+6,LABEL,RED,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,8,1,GREEN
+6,MAIN,GREEN,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,5,2,BLUE
+6,SHORT,BLUE,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,6,3,YELLOW
+6,SIDE,YELLOW,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,7,4,RED
+6,MAIN,RED,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,5,1,BLUE
+6,SHORT,GREEN,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,6,2,YELLOW
+6,SIDE,BLUE,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,7,3,RED
+6,LABEL,YELLOW,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,8,4,GREEN
+7,RED,SIDE,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,7,RED
+7,GREEN,LABEL,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,8,GREEN
+7,BLUE,MAIN,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,5,BLUE
+7,YELLOW,SHORT,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,6,YELLOW
+7,RED,LABEL,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,8,RED
+7,GREEN,MAIN,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,5,GREEN
+7,BLUE,SHORT,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,6,BLUE
+7,YELLOW,SIDE,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,7,YELLOW
+7,RED,MAIN,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,1,5,GREEN
+7,GREEN,SHORT,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,2,6,BLUE
+7,BLUE,SIDE,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,3,7,YELLOW
+7,YELLOW,LABEL,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,4,8,RED
+7,RED,SHORT,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,1,6,BLUE
+7,GREEN,SIDE,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,2,7,YELLOW
+7,BLUE,LABEL,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,3,8,RED
+7,YELLOW,MAIN,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,4,5,GREEN
+7,RED,SIDE,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,7,RED
+7,GREEN,LABEL,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,8,GREEN
+7,BLUE,MAIN,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,5,BLUE
+7,YELLOW,SHORT,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,6,YELLOW
+7,RED,LABEL,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,8,RED
+7,GREEN,MAIN,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,5,GREEN
+7,BLUE,SHORT,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,6,BLUE
+7,YELLOW,SIDE,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,7,YELLOW
+7,RED,MAIN,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,1,5,GREEN
+7,GREEN,SHORT,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,2,6,BLUE
+7,BLUE,SIDE,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,3,7,YELLOW
+7,YELLOW,LABEL,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,4,8,RED
+7,RED,SHORT,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,1,6,BLUE
+7,GREEN,SIDE,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,2,7,YELLOW
+7,BLUE,LABEL,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,3,8,RED
+7,YELLOW,MAIN,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,4,5,GREEN
+7,SIDE,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,7,1,RED
+7,LABEL,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,8,2,GREEN
+7,MAIN,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,5,3,BLUE
+7,SHORT,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,6,4,YELLOW
+7,LABEL,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,8,1,RED
+7,MAIN,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,5,2,GREEN
+7,SHORT,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,6,3,BLUE
+7,SIDE,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,7,4,YELLOW
+7,MAIN,RED,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,5,1,BLUE
+7,SHORT,GREEN,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,6,2,YELLOW
+7,SIDE,BLUE,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,7,3,RED
+7,LABEL,YELLOW,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,8,4,GREEN
+7,SHORT,RED,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,6,1,YELLOW
+7,SIDE,GREEN,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,7,2,RED
+7,LABEL,BLUE,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,8,3,GREEN
+7,MAIN,YELLOW,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,5,4,BLUE
+7,SIDE,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,7,1,RED
+7,LABEL,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,8,2,GREEN
+7,MAIN,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,5,3,BLUE
+7,SHORT,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,6,4,YELLOW
+7,LABEL,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,8,1,RED
+7,MAIN,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,5,2,GREEN
+7,SHORT,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,6,3,BLUE
+7,SIDE,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,7,4,YELLOW
+7,MAIN,RED,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,5,1,BLUE
+7,SHORT,GREEN,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,6,2,YELLOW
+7,SIDE,BLUE,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,7,3,RED
+7,LABEL,YELLOW,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,8,4,GREEN
+7,SHORT,RED,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,6,1,YELLOW
+7,SIDE,GREEN,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,7,2,RED
+7,LABEL,BLUE,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,8,3,GREEN
+7,MAIN,YELLOW,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,5,4,BLUE
+8,RED,LABEL,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,8,RED
+8,GREEN,MAIN,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,5,GREEN
+8,BLUE,SHORT,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,6,BLUE
+8,YELLOW,SIDE,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,7,YELLOW
+8,RED,MAIN,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,5,RED
+8,GREEN,SHORT,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,6,GREEN
+8,BLUE,SIDE,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,7,BLUE
+8,YELLOW,LABEL,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,8,YELLOW
+8,RED,SHORT,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,1,6,YELLOW
+8,GREEN,SIDE,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,2,7,RED
+8,BLUE,LABEL,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,3,8,GREEN
+8,YELLOW,MAIN,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,4,5,BLUE
+8,RED,SIDE,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,1,7,GREEN
+8,GREEN,LABEL,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,2,8,BLUE
+8,BLUE,MAIN,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,3,5,YELLOW
+8,YELLOW,SHORT,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,4,6,RED
+8,RED,LABEL,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,8,RED
+8,GREEN,MAIN,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,5,GREEN
+8,BLUE,SHORT,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,6,BLUE
+8,YELLOW,SIDE,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,7,YELLOW
+8,RED,MAIN,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,5,RED
+8,GREEN,SHORT,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,6,GREEN
+8,BLUE,SIDE,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,7,BLUE
+8,YELLOW,LABEL,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,8,YELLOW
+8,RED,SHORT,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,1,6,YELLOW
+8,GREEN,SIDE,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,2,7,RED
+8,BLUE,LABEL,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,3,8,GREEN
+8,YELLOW,MAIN,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,4,5,BLUE
+8,RED,SIDE,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,1,7,GREEN
+8,GREEN,LABEL,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,2,8,BLUE
+8,BLUE,MAIN,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,3,5,YELLOW
+8,YELLOW,SHORT,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,4,6,RED
+8,LABEL,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,8,1,RED
+8,MAIN,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,5,2,GREEN
+8,SHORT,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,6,3,BLUE
+8,SIDE,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,7,4,YELLOW
+8,MAIN,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,5,1,RED
+8,SHORT,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,6,2,GREEN
+8,SIDE,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,7,3,BLUE
+8,LABEL,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,8,4,YELLOW
+8,SHORT,RED,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,6,1,GREEN
+8,SIDE,GREEN,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,7,2,BLUE
+8,LABEL,BLUE,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,8,3,YELLOW
+8,MAIN,YELLOW,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,5,4,RED
+8,SIDE,RED,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,7,1,BLUE
+8,LABEL,GREEN,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,8,2,YELLOW
+8,MAIN,BLUE,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,5,3,RED
+8,SHORT,YELLOW,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,6,4,GREEN
+8,LABEL,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,8,1,RED
+8,MAIN,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,5,2,GREEN
+8,SHORT,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,6,3,BLUE
+8,SIDE,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,7,4,YELLOW
+8,MAIN,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,5,1,RED
+8,SHORT,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,6,2,GREEN
+8,SIDE,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,7,3,BLUE
+8,LABEL,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,8,4,YELLOW
+8,SHORT,RED,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,6,1,GREEN
+8,SIDE,GREEN,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,7,2,BLUE
+8,LABEL,BLUE,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,8,3,YELLOW
+8,MAIN,YELLOW,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,5,4,RED
+8,SIDE,RED,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,7,1,BLUE
+8,LABEL,GREEN,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,8,2,YELLOW
+8,MAIN,BLUE,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,5,3,RED
+8,SHORT,YELLOW,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,6,4,GREEN
+9,RED,MAIN,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,5,RED
+9,GREEN,SHORT,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,6,GREEN
+9,BLUE,SIDE,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,7,BLUE
+9,YELLOW,LABEL,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,8,YELLOW
+9,RED,SHORT,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,6,RED
+9,GREEN,SIDE,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,7,GREEN
+9,BLUE,LABEL,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,8,BLUE
+9,YELLOW,MAIN,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,5,YELLOW
+9,RED,SIDE,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,1,7,GREEN
+9,GREEN,LABEL,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,2,8,BLUE
+9,BLUE,MAIN,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,3,5,YELLOW
+9,YELLOW,SHORT,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,4,6,RED
+9,RED,LABEL,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,1,8,BLUE
+9,GREEN,MAIN,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,2,5,YELLOW
+9,BLUE,SHORT,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,3,6,RED
+9,YELLOW,SIDE,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,4,7,GREEN
+9,RED,MAIN,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,5,RED
+9,GREEN,SHORT,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,6,GREEN
+9,BLUE,SIDE,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,7,BLUE
+9,YELLOW,LABEL,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,8,YELLOW
+9,RED,SHORT,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,6,RED
+9,GREEN,SIDE,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,7,GREEN
+9,BLUE,LABEL,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,8,BLUE
+9,YELLOW,MAIN,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,5,YELLOW
+9,RED,SIDE,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,1,7,GREEN
+9,GREEN,LABEL,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,2,8,BLUE
+9,BLUE,MAIN,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,3,5,YELLOW
+9,YELLOW,SHORT,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,4,6,RED
+9,RED,LABEL,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,1,8,BLUE
+9,GREEN,MAIN,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,2,5,YELLOW
+9,BLUE,SHORT,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,3,6,RED
+9,YELLOW,SIDE,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,4,7,GREEN
+9,MAIN,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,5,1,RED
+9,SHORT,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,6,2,GREEN
+9,SIDE,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,7,3,BLUE
+9,LABEL,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,8,4,YELLOW
+9,SHORT,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,6,1,RED
+9,SIDE,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,7,2,GREEN
+9,LABEL,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,8,3,BLUE
+9,MAIN,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,5,4,YELLOW
+9,SIDE,RED,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,7,1,BLUE
+9,LABEL,GREEN,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,8,2,YELLOW
+9,MAIN,BLUE,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,5,3,RED
+9,SHORT,YELLOW,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,6,4,GREEN
+9,LABEL,RED,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,8,1,YELLOW
+9,MAIN,GREEN,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,5,2,RED
+9,SHORT,BLUE,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,6,3,GREEN
+9,SIDE,YELLOW,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,7,4,BLUE
+9,MAIN,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,5,1,RED
+9,SHORT,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,6,2,GREEN
+9,SIDE,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,7,3,BLUE
+9,LABEL,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,8,4,YELLOW
+9,SHORT,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,6,1,RED
+9,SIDE,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,7,2,GREEN
+9,LABEL,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,8,3,BLUE
+9,MAIN,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,5,4,YELLOW
+9,SIDE,RED,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,7,1,BLUE
+9,LABEL,GREEN,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,8,2,YELLOW
+9,MAIN,BLUE,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,5,3,RED
+9,SHORT,YELLOW,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,6,4,GREEN
+9,LABEL,RED,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,8,1,YELLOW
+9,MAIN,GREEN,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,5,2,RED
+9,SHORT,BLUE,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,6,3,GREEN
+9,SIDE,YELLOW,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,7,4,BLUE
+10,RED,SHORT,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,6,RED
+10,GREEN,SIDE,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,7,GREEN
+10,BLUE,LABEL,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,8,BLUE
+10,YELLOW,MAIN,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,5,YELLOW
+10,RED,SIDE,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,7,RED
+10,GREEN,LABEL,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,8,GREEN
+10,BLUE,MAIN,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,5,BLUE
+10,YELLOW,SHORT,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,6,YELLOW
+10,RED,LABEL,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,1,8,YELLOW
+10,GREEN,MAIN,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,2,5,RED
+10,BLUE,SHORT,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,3,6,GREEN
+10,YELLOW,SIDE,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,4,7,BLUE
+10,RED,MAIN,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,1,5,GREEN
+10,GREEN,SHORT,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,2,6,BLUE
+10,BLUE,SIDE,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,3,7,YELLOW
+10,YELLOW,LABEL,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,4,8,RED
+10,RED,SHORT,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,6,RED
+10,GREEN,SIDE,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,7,GREEN
+10,BLUE,LABEL,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,8,BLUE
+10,YELLOW,MAIN,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,5,YELLOW
+10,RED,SIDE,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,7,RED
+10,GREEN,LABEL,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,8,GREEN
+10,BLUE,MAIN,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,5,BLUE
+10,YELLOW,SHORT,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,6,YELLOW
+10,RED,LABEL,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,1,8,YELLOW
+10,GREEN,MAIN,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,2,5,RED
+10,BLUE,SHORT,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,3,6,GREEN
+10,YELLOW,SIDE,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,4,7,BLUE
+10,RED,MAIN,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,1,5,GREEN
+10,GREEN,SHORT,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,2,6,BLUE
+10,BLUE,SIDE,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,3,7,YELLOW
+10,YELLOW,LABEL,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,4,8,RED
+10,SHORT,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,6,1,RED
+10,SIDE,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,7,2,GREEN
+10,LABEL,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,8,3,BLUE
+10,MAIN,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,5,4,YELLOW
+10,SIDE,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,7,1,RED
+10,LABEL,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,8,2,GREEN
+10,MAIN,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,5,3,BLUE
+10,SHORT,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,6,4,YELLOW
+10,LABEL,RED,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,8,1,GREEN
+10,MAIN,GREEN,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,5,2,BLUE
+10,SHORT,BLUE,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,6,3,YELLOW
+10,SIDE,YELLOW,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,7,4,RED
+10,MAIN,RED,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,5,1,BLUE
+10,SHORT,GREEN,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,6,2,YELLOW
+10,SIDE,BLUE,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,7,3,RED
+10,LABEL,YELLOW,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,8,4,GREEN
+10,SHORT,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,6,1,RED
+10,SIDE,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,7,2,GREEN
+10,LABEL,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,8,3,BLUE
+10,MAIN,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,5,4,YELLOW
+10,SIDE,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,7,1,RED
+10,LABEL,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,8,2,GREEN
+10,MAIN,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,5,3,BLUE
+10,SHORT,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,6,4,YELLOW
+10,LABEL,RED,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,8,1,GREEN
+10,MAIN,GREEN,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,5,2,BLUE
+10,SHORT,BLUE,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,6,3,YELLOW
+10,SIDE,YELLOW,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,7,4,RED
+10,MAIN,RED,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,5,1,BLUE
+10,SHORT,GREEN,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,6,2,YELLOW
+10,SIDE,BLUE,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,7,3,RED
+10,LABEL,YELLOW,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,8,4,GREEN
+11,RED,SIDE,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,7,RED
+11,GREEN,LABEL,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,8,GREEN
+11,BLUE,MAIN,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,5,BLUE
+11,YELLOW,SHORT,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,6,YELLOW
+11,RED,LABEL,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,8,RED
+11,GREEN,MAIN,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,5,GREEN
+11,BLUE,SHORT,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,6,BLUE
+11,YELLOW,SIDE,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,7,YELLOW
+11,RED,MAIN,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,1,5,GREEN
+11,GREEN,SHORT,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,2,6,BLUE
+11,BLUE,SIDE,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,3,7,YELLOW
+11,YELLOW,LABEL,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,4,8,RED
+11,RED,SHORT,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,1,6,BLUE
+11,GREEN,SIDE,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,2,7,YELLOW
+11,BLUE,LABEL,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,3,8,RED
+11,YELLOW,MAIN,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,4,5,GREEN
+11,RED,SIDE,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,7,RED
+11,GREEN,LABEL,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,8,GREEN
+11,BLUE,MAIN,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,5,BLUE
+11,YELLOW,SHORT,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,6,YELLOW
+11,RED,LABEL,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,8,RED
+11,GREEN,MAIN,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,5,GREEN
+11,BLUE,SHORT,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,6,BLUE
+11,YELLOW,SIDE,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,7,YELLOW
+11,RED,MAIN,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,1,5,GREEN
+11,GREEN,SHORT,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,2,6,BLUE
+11,BLUE,SIDE,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,3,7,YELLOW
+11,YELLOW,LABEL,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,4,8,RED
+11,RED,SHORT,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,1,6,BLUE
+11,GREEN,SIDE,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,2,7,YELLOW
+11,BLUE,LABEL,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,3,8,RED
+11,YELLOW,MAIN,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,4,5,GREEN
+11,SIDE,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,7,1,RED
+11,LABEL,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,8,2,GREEN
+11,MAIN,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,5,3,BLUE
+11,SHORT,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,6,4,YELLOW
+11,LABEL,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,8,1,RED
+11,MAIN,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,5,2,GREEN
+11,SHORT,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,6,3,BLUE
+11,SIDE,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,7,4,YELLOW
+11,MAIN,RED,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,5,1,BLUE
+11,SHORT,GREEN,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,6,2,YELLOW
+11,SIDE,BLUE,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,7,3,RED
+11,LABEL,YELLOW,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,8,4,GREEN
+11,SHORT,RED,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,6,1,YELLOW
+11,SIDE,GREEN,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,7,2,RED
+11,LABEL,BLUE,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,8,3,GREEN
+11,MAIN,YELLOW,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,5,4,BLUE
+11,SIDE,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,7,1,RED
+11,LABEL,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,8,2,GREEN
+11,MAIN,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,5,3,BLUE
+11,SHORT,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,6,4,YELLOW
+11,LABEL,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,8,1,RED
+11,MAIN,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,5,2,GREEN
+11,SHORT,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,6,3,BLUE
+11,SIDE,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,7,4,YELLOW
+11,MAIN,RED,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,5,1,BLUE
+11,SHORT,GREEN,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,6,2,YELLOW
+11,SIDE,BLUE,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,7,3,RED
+11,LABEL,YELLOW,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,8,4,GREEN
+11,SHORT,RED,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,6,1,YELLOW
+11,SIDE,GREEN,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,7,2,RED
+11,LABEL,BLUE,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,8,3,GREEN
+11,MAIN,YELLOW,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,5,4,BLUE
+12,RED,LABEL,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,8,RED
+12,GREEN,MAIN,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,5,GREEN
+12,BLUE,SHORT,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,6,BLUE
+12,YELLOW,SIDE,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,7,YELLOW
+12,RED,MAIN,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,5,RED
+12,GREEN,SHORT,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,6,GREEN
+12,BLUE,SIDE,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,7,BLUE
+12,YELLOW,LABEL,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,8,YELLOW
+12,RED,SHORT,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,1,6,YELLOW
+12,GREEN,SIDE,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,2,7,RED
+12,BLUE,LABEL,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,3,8,GREEN
+12,YELLOW,MAIN,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,4,5,BLUE
+12,RED,SIDE,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,1,7,GREEN
+12,GREEN,LABEL,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,2,8,BLUE
+12,BLUE,MAIN,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,3,5,YELLOW
+12,YELLOW,SHORT,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,4,6,RED
+12,RED,LABEL,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,8,RED
+12,GREEN,MAIN,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,5,GREEN
+12,BLUE,SHORT,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,6,BLUE
+12,YELLOW,SIDE,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,7,YELLOW
+12,RED,MAIN,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,5,RED
+12,GREEN,SHORT,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,6,GREEN
+12,BLUE,SIDE,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,7,BLUE
+12,YELLOW,LABEL,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,8,YELLOW
+12,RED,SHORT,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,1,6,YELLOW
+12,GREEN,SIDE,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,2,7,RED
+12,BLUE,LABEL,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,3,8,GREEN
+12,YELLOW,MAIN,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,4,5,BLUE
+12,RED,SIDE,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,1,7,GREEN
+12,GREEN,LABEL,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,2,8,BLUE
+12,BLUE,MAIN,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,3,5,YELLOW
+12,YELLOW,SHORT,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,4,6,RED
+12,LABEL,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,8,1,RED
+12,MAIN,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,5,2,GREEN
+12,SHORT,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,6,3,BLUE
+12,SIDE,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,7,4,YELLOW
+12,MAIN,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,5,1,RED
+12,SHORT,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,6,2,GREEN
+12,SIDE,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,7,3,BLUE
+12,LABEL,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,8,4,YELLOW
+12,SHORT,RED,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,6,1,GREEN
+12,SIDE,GREEN,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,7,2,BLUE
+12,LABEL,BLUE,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,8,3,YELLOW
+12,MAIN,YELLOW,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,5,4,RED
+12,SIDE,RED,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,7,1,BLUE
+12,LABEL,GREEN,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,8,2,YELLOW
+12,MAIN,BLUE,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,5,3,RED
+12,SHORT,YELLOW,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,6,4,GREEN
+12,LABEL,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,8,1,RED
+12,MAIN,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,5,2,GREEN
+12,SHORT,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,6,3,BLUE
+12,SIDE,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,7,4,YELLOW
+12,MAIN,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,5,1,RED
+12,SHORT,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,6,2,GREEN
+12,SIDE,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,7,3,BLUE
+12,LABEL,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,8,4,YELLOW
+12,SHORT,RED,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,6,1,GREEN
+12,SIDE,GREEN,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,7,2,BLUE
+12,LABEL,BLUE,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,8,3,YELLOW
+12,MAIN,YELLOW,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,5,4,RED
+12,SIDE,RED,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,7,1,BLUE
+12,LABEL,GREEN,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,8,2,YELLOW
+12,MAIN,BLUE,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,5,3,RED
+12,SHORT,YELLOW,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,6,4,GREEN
+13,RED,MAIN,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,5,RED
+13,GREEN,SHORT,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,6,GREEN
+13,BLUE,SIDE,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,7,BLUE
+13,YELLOW,LABEL,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,8,YELLOW
+13,RED,SHORT,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,6,RED
+13,GREEN,SIDE,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,7,GREEN
+13,BLUE,LABEL,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,8,BLUE
+13,YELLOW,MAIN,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,5,YELLOW
+13,RED,SIDE,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,1,7,GREEN
+13,GREEN,LABEL,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,2,8,BLUE
+13,BLUE,MAIN,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,3,5,YELLOW
+13,YELLOW,SHORT,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,4,6,RED
+13,RED,LABEL,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,1,8,BLUE
+13,GREEN,MAIN,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,2,5,YELLOW
+13,BLUE,SHORT,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,3,6,RED
+13,YELLOW,SIDE,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,4,7,GREEN
+13,RED,MAIN,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,5,RED
+13,GREEN,SHORT,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,6,GREEN
+13,BLUE,SIDE,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,7,BLUE
+13,YELLOW,LABEL,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,8,YELLOW
+13,RED,SHORT,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,6,RED
+13,GREEN,SIDE,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,7,GREEN
+13,BLUE,LABEL,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,8,BLUE
+13,YELLOW,MAIN,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,5,YELLOW
+13,RED,SIDE,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,1,7,GREEN
+13,GREEN,LABEL,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,2,8,BLUE
+13,BLUE,MAIN,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,3,5,YELLOW
+13,YELLOW,SHORT,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,4,6,RED
+13,RED,LABEL,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,1,8,BLUE
+13,GREEN,MAIN,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,2,5,YELLOW
+13,BLUE,SHORT,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,3,6,RED
+13,YELLOW,SIDE,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,4,7,GREEN
+13,MAIN,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,5,1,RED
+13,SHORT,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,6,2,GREEN
+13,SIDE,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,7,3,BLUE
+13,LABEL,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,8,4,YELLOW
+13,SHORT,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,6,1,RED
+13,SIDE,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,7,2,GREEN
+13,LABEL,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,8,3,BLUE
+13,MAIN,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,5,4,YELLOW
+13,SIDE,RED,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,7,1,BLUE
+13,LABEL,GREEN,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,8,2,YELLOW
+13,MAIN,BLUE,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,5,3,RED
+13,SHORT,YELLOW,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,6,4,GREEN
+13,LABEL,RED,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,8,1,YELLOW
+13,MAIN,GREEN,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,5,2,RED
+13,SHORT,BLUE,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,6,3,GREEN
+13,SIDE,YELLOW,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,7,4,BLUE
+13,MAIN,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,5,1,RED
+13,SHORT,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,6,2,GREEN
+13,SIDE,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,7,3,BLUE
+13,LABEL,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,8,4,YELLOW
+13,SHORT,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,6,1,RED
+13,SIDE,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,7,2,GREEN
+13,LABEL,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,8,3,BLUE
+13,MAIN,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,5,4,YELLOW
+13,SIDE,RED,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,7,1,BLUE
+13,LABEL,GREEN,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,8,2,YELLOW
+13,MAIN,BLUE,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,5,3,RED
+13,SHORT,YELLOW,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,6,4,GREEN
+13,LABEL,RED,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,8,1,YELLOW
+13,MAIN,GREEN,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,5,2,RED
+13,SHORT,BLUE,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,6,3,GREEN
+13,SIDE,YELLOW,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,7,4,BLUE
+14,RED,SHORT,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,6,RED
+14,GREEN,SIDE,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,7,GREEN
+14,BLUE,LABEL,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,8,BLUE
+14,YELLOW,MAIN,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,5,YELLOW
+14,RED,SIDE,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,7,RED
+14,GREEN,LABEL,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,8,GREEN
+14,BLUE,MAIN,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,5,BLUE
+14,YELLOW,SHORT,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,6,YELLOW
+14,RED,LABEL,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,1,8,YELLOW
+14,GREEN,MAIN,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,2,5,RED
+14,BLUE,SHORT,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,3,6,GREEN
+14,YELLOW,SIDE,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,4,7,BLUE
+14,RED,MAIN,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,1,5,GREEN
+14,GREEN,SHORT,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,2,6,BLUE
+14,BLUE,SIDE,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,3,7,YELLOW
+14,YELLOW,LABEL,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,4,8,RED
+14,RED,SHORT,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,6,RED
+14,GREEN,SIDE,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,7,GREEN
+14,BLUE,LABEL,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,8,BLUE
+14,YELLOW,MAIN,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,5,YELLOW
+14,RED,SIDE,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,7,RED
+14,GREEN,LABEL,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,8,GREEN
+14,BLUE,MAIN,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,5,BLUE
+14,YELLOW,SHORT,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,6,YELLOW
+14,RED,LABEL,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,1,8,YELLOW
+14,GREEN,MAIN,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,2,5,RED
+14,BLUE,SHORT,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,3,6,GREEN
+14,YELLOW,SIDE,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,4,7,BLUE
+14,RED,MAIN,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,1,5,GREEN
+14,GREEN,SHORT,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,2,6,BLUE
+14,BLUE,SIDE,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,3,7,YELLOW
+14,YELLOW,LABEL,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,4,8,RED
+14,SHORT,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,6,1,RED
+14,SIDE,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,7,2,GREEN
+14,LABEL,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,8,3,BLUE
+14,MAIN,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,5,4,YELLOW
+14,SIDE,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,7,1,RED
+14,LABEL,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,8,2,GREEN
+14,MAIN,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,5,3,BLUE
+14,SHORT,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,6,4,YELLOW
+14,LABEL,RED,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,8,1,GREEN
+14,MAIN,GREEN,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,5,2,BLUE
+14,SHORT,BLUE,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,6,3,YELLOW
+14,SIDE,YELLOW,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,7,4,RED
+14,MAIN,RED,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,5,1,BLUE
+14,SHORT,GREEN,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,6,2,YELLOW
+14,SIDE,BLUE,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,7,3,RED
+14,LABEL,YELLOW,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,8,4,GREEN
+14,SHORT,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,6,1,RED
+14,SIDE,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,7,2,GREEN
+14,LABEL,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,8,3,BLUE
+14,MAIN,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,5,4,YELLOW
+14,SIDE,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,7,1,RED
+14,LABEL,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,8,2,GREEN
+14,MAIN,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,5,3,BLUE
+14,SHORT,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,6,4,YELLOW
+14,LABEL,RED,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,8,1,GREEN
+14,MAIN,GREEN,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,5,2,BLUE
+14,SHORT,BLUE,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,6,3,YELLOW
+14,SIDE,YELLOW,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,7,4,RED
+14,MAIN,RED,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,5,1,BLUE
+14,SHORT,GREEN,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,6,2,YELLOW
+14,SIDE,BLUE,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,7,3,RED
+14,LABEL,YELLOW,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,8,4,GREEN
+15,RED,SIDE,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,7,RED
+15,GREEN,LABEL,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,8,GREEN
+15,BLUE,MAIN,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,5,BLUE
+15,YELLOW,SHORT,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,6,YELLOW
+15,RED,LABEL,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,8,RED
+15,GREEN,MAIN,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,5,GREEN
+15,BLUE,SHORT,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,6,BLUE
+15,YELLOW,SIDE,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,7,YELLOW
+15,RED,MAIN,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,1,5,GREEN
+15,GREEN,SHORT,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,2,6,BLUE
+15,BLUE,SIDE,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,3,7,YELLOW
+15,YELLOW,LABEL,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,4,8,RED
+15,RED,SHORT,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,1,6,BLUE
+15,GREEN,SIDE,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,2,7,YELLOW
+15,BLUE,LABEL,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,3,8,RED
+15,YELLOW,MAIN,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,4,5,GREEN
+15,RED,SIDE,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,7,RED
+15,GREEN,LABEL,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,8,GREEN
+15,BLUE,MAIN,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,5,BLUE
+15,YELLOW,SHORT,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,6,YELLOW
+15,RED,LABEL,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,8,RED
+15,GREEN,MAIN,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,5,GREEN
+15,BLUE,SHORT,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,6,BLUE
+15,YELLOW,SIDE,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,7,YELLOW
+15,RED,MAIN,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,1,5,GREEN
+15,GREEN,SHORT,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,2,6,BLUE
+15,BLUE,SIDE,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,3,7,YELLOW
+15,YELLOW,LABEL,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,4,8,RED
+15,RED,SHORT,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,1,6,BLUE
+15,GREEN,SIDE,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,2,7,YELLOW
+15,BLUE,LABEL,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,3,8,RED
+15,YELLOW,MAIN,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,4,5,GREEN
+15,SIDE,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,7,1,RED
+15,LABEL,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,8,2,GREEN
+15,MAIN,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,5,3,BLUE
+15,SHORT,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,6,4,YELLOW
+15,LABEL,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,8,1,RED
+15,MAIN,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,5,2,GREEN
+15,SHORT,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,6,3,BLUE
+15,SIDE,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,7,4,YELLOW
+15,MAIN,RED,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,5,1,BLUE
+15,SHORT,GREEN,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,6,2,YELLOW
+15,SIDE,BLUE,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,7,3,RED
+15,LABEL,YELLOW,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,8,4,GREEN
+15,SHORT,RED,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,6,1,YELLOW
+15,SIDE,GREEN,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,7,2,RED
+15,LABEL,BLUE,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,8,3,GREEN
+15,MAIN,YELLOW,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,5,4,BLUE
+15,SIDE,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,7,1,RED
+15,LABEL,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,8,2,GREEN
+15,MAIN,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,5,3,BLUE
+15,SHORT,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,6,4,YELLOW
+15,LABEL,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,8,1,RED
+15,MAIN,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,5,2,GREEN
+15,SHORT,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,6,3,BLUE
+15,SIDE,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,7,4,YELLOW
+15,MAIN,RED,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,5,1,BLUE
+15,SHORT,GREEN,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,6,2,YELLOW
+15,SIDE,BLUE,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,7,3,RED
+15,LABEL,YELLOW,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,8,4,GREEN
+15,SHORT,RED,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,6,1,YELLOW
+15,SIDE,GREEN,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,7,2,RED
+15,LABEL,BLUE,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,8,3,GREEN
+15,MAIN,YELLOW,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,5,4,BLUE
+16,RED,LABEL,RED,black,Left,"[-0.2, 0]",c,foveal_unified,1,1,9,1,8,RED
+16,GREEN,MAIN,GREEN,black,Left,"[-0.2, 0]",c,foveal_unified,2,1,9,2,5,GREEN
+16,BLUE,SHORT,BLUE,black,Left,"[-0.2, 0]",c,foveal_unified,3,1,9,3,6,BLUE
+16,YELLOW,SIDE,YELLOW,black,Left,"[-0.2, 0]",c,foveal_unified,4,1,9,4,7,YELLOW
+16,RED,MAIN,RED,black,Right,"[0.2, 0]",c,foveal_unified,1,1,9,1,5,RED
+16,GREEN,SHORT,GREEN,black,Right,"[0.2, 0]",c,foveal_unified,2,1,9,2,6,GREEN
+16,BLUE,SIDE,BLUE,black,Right,"[0.2, 0]",c,foveal_unified,3,1,9,3,7,BLUE
+16,YELLOW,LABEL,YELLOW,black,Right,"[0.2, 0]",c,foveal_unified,4,1,9,4,8,YELLOW
+16,RED,SHORT,YELLOW,black,Left,"[-0.2, 0]",ic,foveal_unified,4,2,9,1,6,YELLOW
+16,GREEN,SIDE,RED,black,Left,"[-0.2, 0]",ic,foveal_unified,1,2,9,2,7,RED
+16,BLUE,LABEL,GREEN,black,Left,"[-0.2, 0]",ic,foveal_unified,2,2,9,3,8,GREEN
+16,YELLOW,MAIN,BLUE,black,Left,"[-0.2, 0]",ic,foveal_unified,3,2,9,4,5,BLUE
+16,RED,SIDE,GREEN,black,Right,"[0.2, 0]",ic,foveal_unified,2,2,9,1,7,GREEN
+16,GREEN,LABEL,BLUE,black,Right,"[0.2, 0]",ic,foveal_unified,3,2,9,2,8,BLUE
+16,BLUE,MAIN,YELLOW,black,Right,"[0.2, 0]",ic,foveal_unified,4,2,9,3,5,YELLOW
+16,YELLOW,SHORT,RED,black,Right,"[0.2, 0]",ic,foveal_unified,1,2,9,4,6,RED
+16,RED,LABEL,black,RED,Left,"[-0.2, 0]",c,para_dis,1,3,9,1,8,RED
+16,GREEN,MAIN,black,GREEN,Left,"[-0.2, 0]",c,para_dis,2,3,9,2,5,GREEN
+16,BLUE,SHORT,black,BLUE,Left,"[-0.2, 0]",c,para_dis,3,3,9,3,6,BLUE
+16,YELLOW,SIDE,black,YELLOW,Left,"[-0.2, 0]",c,para_dis,4,3,9,4,7,YELLOW
+16,RED,MAIN,black,RED,Right,"[0.2, 0]",c,para_dis,1,3,9,1,5,RED
+16,GREEN,SHORT,black,GREEN,Right,"[0.2, 0]",c,para_dis,2,3,9,2,6,GREEN
+16,BLUE,SIDE,black,BLUE,Right,"[0.2, 0]",c,para_dis,3,3,9,3,7,BLUE
+16,YELLOW,LABEL,black,YELLOW,Right,"[0.2, 0]",c,para_dis,4,3,9,4,8,YELLOW
+16,RED,SHORT,black,YELLOW,left,"[-0.2, 0]",ic,para_dis,4,4,9,1,6,YELLOW
+16,GREEN,SIDE,black,RED,left,"[-0.2, 0]",ic,para_dis,1,4,9,2,7,RED
+16,BLUE,LABEL,black,GREEN,left,"[-0.2, 0]",ic,para_dis,2,4,9,3,8,GREEN
+16,YELLOW,MAIN,black,BLUE,left,"[-0.2, 0]",ic,para_dis,3,4,9,4,5,BLUE
+16,RED,SIDE,black,GREEN,right,"[0.2, 0]",ic,para_dis,2,4,9,1,7,GREEN
+16,GREEN,LABEL,black,BLUE,right,"[0.2, 0]",ic,para_dis,3,4,9,2,8,BLUE
+16,BLUE,MAIN,black,YELLOW,right,"[0.2, 0]",ic,para_dis,4,4,9,3,5,YELLOW
+16,YELLOW,SHORT,black,RED,right,"[0.2, 0]",ic,para_dis,1,4,9,4,6,RED
+16,LABEL,RED,RED,black,left,"[-0.2, 0]",c,fov_dis,1,1,9,8,1,RED
+16,MAIN,GREEN,GREEN,black,left,"[-0.2, 0]",c,fov_dis,2,1,9,5,2,GREEN
+16,SHORT,BLUE,BLUE,black,left,"[-0.2, 0]",c,fov_dis,3,1,9,6,3,BLUE
+16,SIDE,YELLOW,YELLOW,black,left,"[-0.2, 0]",c,fov_dis,4,1,9,7,4,YELLOW
+16,MAIN,RED,RED,black,right,"[0.2, 0]",c,fov_dis,1,1,9,5,1,RED
+16,SHORT,GREEN,GREEN,black,right,"[0.2, 0]",c,fov_dis,2,1,9,6,2,GREEN
+16,SIDE,BLUE,BLUE,black,right,"[0.2, 0]",c,fov_dis,3,1,9,7,3,BLUE
+16,LABEL,YELLOW,YELLOW,black,right,"[0.2, 0]",c,fov_dis,4,1,9,8,4,YELLOW
+16,SHORT,RED,GREEN,black,left,"[-0.2, 0]",ic,fov_dis,2,2,9,6,1,GREEN
+16,SIDE,GREEN,BLUE,black,left,"[-0.2, 0]",ic,fov_dis,3,2,9,7,2,BLUE
+16,LABEL,BLUE,YELLOW,black,left,"[-0.2, 0]",ic,fov_dis,4,2,9,8,3,YELLOW
+16,MAIN,YELLOW,RED,black,left,"[-0.2, 0]",ic,fov_dis,1,2,9,5,4,RED
+16,SIDE,RED,BLUE,black,right,"[0.2, 0]",ic,fov_dis,3,2,9,7,1,BLUE
+16,LABEL,GREEN,YELLOW,black,right,"[0.2, 0]",ic,fov_dis,4,2,9,8,2,YELLOW
+16,MAIN,BLUE,RED,black,right,"[0.2, 0]",ic,fov_dis,1,2,9,5,3,RED
+16,SHORT,YELLOW,GREEN,black,right,"[0.2, 0]",ic,fov_dis,2,2,9,6,4,GREEN
+16,LABEL,RED,black,RED,left,"[-0.2, 0]",c,para_unified,1,3,9,8,1,RED
+16,MAIN,GREEN,black,GREEN,left,"[-0.2, 0]",c,para_unified,2,3,9,5,2,GREEN
+16,SHORT,BLUE,black,BLUE,left,"[-0.2, 0]",c,para_unified,3,3,9,6,3,BLUE
+16,SIDE,YELLOW,black,YELLOW,left,"[-0.2, 0]",c,para_unified,4,3,9,7,4,YELLOW
+16,MAIN,RED,black,RED,right,"[0.2, 0]",c,para_unified,1,3,9,5,1,RED
+16,SHORT,GREEN,black,GREEN,right,"[0.2, 0]",c,para_unified,2,3,9,6,2,GREEN
+16,SIDE,BLUE,black,BLUE,right,"[0.2, 0]",c,para_unified,3,3,9,7,3,BLUE
+16,LABEL,YELLOW,black,YELLOW,right,"[0.2, 0]",c,para_unified,4,3,9,8,4,YELLOW
+16,SHORT,RED,black,GREEN,left,"[-0.2, 0]",ic,para_unified,2,4,9,6,1,GREEN
+16,SIDE,GREEN,black,BLUE,left,"[-0.2, 0]",ic,para_unified,3,4,9,7,2,BLUE
+16,LABEL,BLUE,black,YELLOW,left,"[-0.2, 0]",ic,para_unified,4,4,9,8,3,YELLOW
+16,MAIN,YELLOW,black,RED,left,"[-0.2, 0]",ic,para_unified,1,4,9,5,4,RED
+16,SIDE,RED,black,BLUE,right,"[0.2, 0]",ic,para_unified,3,4,9,7,1,BLUE
+16,LABEL,GREEN,black,YELLOW,right,"[0.2, 0]",ic,para_unified,4,4,9,8,2,YELLOW
+16,MAIN,BLUE,black,RED,right,"[0.2, 0]",ic,para_unified,1,4,9,5,3,RED
+16,SHORT,YELLOW,black,GREEN,right,"[0.2, 0]",ic,para_unified,2,4,9,6,4,GREEN
