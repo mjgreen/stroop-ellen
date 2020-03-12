@@ -1,3 +1,0 @@
-1.1790 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['pyo'] (in that order).
-16.0557 	WARNING 	Monitor specification not found. Creating a temporary one...
-18.4602 	WARNING 	psychopy.sound.backend_pyo.init could not find microphone hardware; recording not available
