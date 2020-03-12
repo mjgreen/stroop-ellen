@@ -1,3 +1,5 @@
-"C:\Program Files\PsychoPy3\python.exe" -m psychopy.app.psychopyApp
+If it won't even start, do this from the command prompt to get an error message: "C:\Program Files\PsychoPy3\python.exe" -m psychopy.app.psychopyApp
 
-C:\Users\Experimenter\AppData\Roaming\psychopy3
+Sometimes configuration files prevent proper working: these are in C:\Users\Experimenter\AppData\Roaming\psychopy3
+
+If it can't find parallel port driver, you neet to put inpoutx64.dll (from the folder parallelport-driver) in C:\Windows\SysWOW64
