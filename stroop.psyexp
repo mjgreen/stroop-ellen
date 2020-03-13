@@ -137,11 +137,11 @@
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startData" updates="None" val="$StimTrig" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="startType" updates="None" val="frame N" valType="str"/>
+        <Param name="startVal" updates="None" val="30" valType="code"/>
         <Param name="stopData" updates="None" val="0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="0.15" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (frames)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
         <Param name="syncScreen" updates="constant" val="True" valType="bool"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
       </ParallelOutComponent>
